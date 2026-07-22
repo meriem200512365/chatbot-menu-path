@@ -1,4 +1,8 @@
 name: Tests 
+stages :
+  - test
+  - build
+
 
 on:
   push:
