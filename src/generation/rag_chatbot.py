@@ -1,104 +1,120 @@
 """
 rag_chatbot.py
 ---------------
-Implemente le schema demande :
+Pipeline RAG :
 
     Question -> Retrieval (ChromaDB) -> contexte trouve + question
              -> LLM -> reponse redigee
 
-A la difference de src/chatbot/chatbot.py (qui renvoie juste LE chemin
-via un template fixe), ce module laisse le LLM REDIGER une reponse en
-langage naturel, en s'appuyant STRICTEMENT sur les chemins recuperes
-par ChromaDB (pour eviter les hallucinations de chemins qui n'existent
-pas dans le menu).
+Le LLM est un assistant GENERALISTE pour l'entreprise (repond a toute
+question, y compris technique/generale, avec ses propres connaissances).
+La resolution de chemin de menu Active Premium est une FONCTIONNALITE EN
+PLUS qu'il utilise quand c'est pertinent, pas une restriction.
 
-Usage :
-    from src.generation.rag_chatbot import repondre_rag
-    resultat = repondre_rag("comment gerer les actes RO ?")
+Support egalement un contexte de document uploade (voir document_context
+dans repondre_rag) : le texte extrait d'un PDF/Excel/CSV/fichier texte est
+alors injecte dans le prompt, en plus (ou a la place) du contexte de menu.
 """
-import os
+
 from src.config import RAG_TOP_K
 from src.search.semantic_search import search
 from src.generation.llm_client import generate
 
 
-SEUIL_CONTEXTE_PERTINENT = 0.60  # au-dela, on considere le contexte trop eloigne
+SEUIL_PERTINENCE_FIABLE = 0.40
 
 
-SYSTEM_PROMPT = """Tu es l'assistant de navigation de l'application "Active Premium".
+SYSTEM_PROMPT = """Tu es l'assistant IA interne de l'entreprise, utilise par les employes
+au quotidien (utilisateurs metier, developpeurs, etc.).
 
-Ton role : aider les employes a comprendre OU se trouve une fonctionnalite dans le
-menu de l'application, et a comprendre A QUOI SERT cette fonctionnalite, en te basant
-UNIQUEMENT sur les chemins de menu fournis en contexte ci-dessous.
+Ton fonctionnement :
 
-Regles strictes :
-- N'invente JAMAIS un chemin de menu qui n'est pas dans le contexte fourni.
-- Si le contexte ne permet pas de repondre avec certitude, dis-le clairement
-  et propose a l'utilisateur de reformuler sa question.
-- Reponds en francais, de maniere concise et professionnelle.
-- Quand tu cites un chemin, ecris-le exactement comme fourni dans le contexte
-  (avec les ">" separant chaque niveau), par exemple : Prestations > Referentiel > Actes.
-- Tu peux legerement reformuler ou expliquer, mais le CHEMIN lui-meme doit rester
-  identique a celui fourni (ne le traduis pas, ne le raccourcis pas).
+1. QUESTION GENERALE (technique, metier, quotidienne, salutation...) :
+   Reponds normalement en utilisant tes propres connaissances, comme le
+   ferait un assistant IA generaliste. Tu n'es PAS limite a l'application
+   Active Premium : code, bases de donnees, outils, methodologie, questions
+   diverses des developpeurs ou de n'importe quel employe -> tu reponds
+   normalement, sans jamais refuser sous pretexte que ca ne concerne pas
+   le menu.
+
+2. QUESTION DE NAVIGATION dans l'application "Active Premium" :
+   Si un contexte de chemins de menu t'est fourni ET qu'il est pertinent,
+   utilise-le pour indiquer le chemin exact. N'invente JAMAIS un chemin qui
+   n'est pas dans le contexte fourni. Ecris-le exactement comme fourni
+   (avec les ">" separant chaque niveau), par exemple :
+   Prestations > Referentiel > Actes.
+
+3. DOCUMENT JOINT (si un contenu de fichier est fourni ci-dessous) :
+   Utilise ce contenu en priorite pour repondre si la question porte dessus
+   (resumer, expliquer, extraire une info precise, etc.).
+
+Dans tous les cas : reponds en francais, de maniere naturelle, concise et
+professionnelle -- comme un collegue competent, pas comme un moteur de
+recherche restreint.
 """
 
 
-def build_context(resultats: list) -> str:
-    """Formate les resultats de la recherche vectorielle en texte pour le prompt."""
+def build_menu_context(resultats: list) -> str:
+    if not resultats:
+        return ""
     lignes = []
     for i, r in enumerate(resultats, start=1):
-        lignes.append(f"{i}. Chemin : {r['path_str']}  (pertinence: {1 - r['distance']:.2f})")
+        pertinence = 1 - r["distance"]
+        lignes.append(f"{i}. Chemin : {r['path_str']}  (pertinence: {pertinence:.2f})")
     return "\n".join(lignes)
 
 
-def repondre_rag(question: str, top_k: int = RAG_TOP_K) -> dict:
+def repondre_rag(question: str, top_k: int = RAG_TOP_K, document_context: str = None) -> dict:
     """
+    document_context : texte deja extrait d'un fichier uploade (voir
+    src/files/document_reader.py), ou None s'il n'y a pas de fichier joint.
+
     Retourne :
     {
-        "reponse": "texte redige par le LLM",
-        "chemins_sources": [...],   # les chemins utilises comme contexte
-        "type": "rag_reponse" | "rag_hors_contexte"
+        "reponse": "...",
+        "chemins_sources": [...],   # vide si la question n'etait pas liee au menu
+        "type": "rag_reponse",
     }
     """
-    # --- Etape 1 : Retrieval ---
+    # --- Etape 1 : Retrieval sur le menu ---
     resultats = search(question, top_k=top_k)
+    pertinent = bool(resultats) and (1 - resultats[0]["distance"]) >= SEUIL_PERTINENCE_FIABLE
+    chemins_sources = resultats if pertinent else []
 
-    if not resultats or resultats[0]["distance"] >= SEUIL_CONTEXTE_PERTINENT:
-        return {
-            "reponse": "Je n'ai trouve aucune fonctionnalite du menu correspondant "
-                       "a ta question. Peux-tu reformuler avec d'autres mots ?",
-            "chemins_sources": [],
-            "type": "rag_hors_contexte",
-        }
+    # --- Etape 2 : construction du prompt ---
+    blocs = []
+    if pertinent:
+        blocs.append(
+            "Contexte (chemins du menu Active Premium recuperes automatiquement, "
+            f"a utiliser SEULEMENT si pertinent) :\n{build_menu_context(resultats)}"
+        )
+    if document_context:
+        blocs.append(f"Contenu du document joint par l'utilisateur :\n{document_context}")
 
-    # --- Etape 2 : construction du contexte ---
-    contexte = build_context(resultats)
-
-    user_prompt = f"""Contexte (chemins du menu trouves comme pertinents) :
-{contexte}
-
-Question de l'utilisateur : {question}
-
-Reponds a la question en t'appuyant sur le contexte ci-dessus."""
+    blocs.append(f"Question de l'utilisateur : {question}")
+    blocs.append("Reponds a la question.")
+    user_prompt = "\n\n".join(blocs)
 
     # --- Etape 3 : Generation ---
     reponse_llm = generate(SYSTEM_PROMPT, user_prompt)
 
     return {
         "reponse": reponse_llm,
-        "chemins_sources": resultats,
+        "chemins_sources": chemins_sources,
         "type": "rag_reponse",
     }
 
 
 if __name__ == "__main__":
     for q in [
+        "bonjour",
+        "peux tu me dire comment creer une base de donnees dans mongodb ?",
         "comment gerer les actes RO ?",
-        "je cherche a annuler un cheque, comment faire ?",
     ]:
         print(f"\nQ: {q}")
         res = repondre_rag(q)
         print(f"R: {res['reponse']}")
-        print("Sources :")
-        for s in res["chemins_sources"]:
-            print(f"   - {s['path_str']}")
+        if res["chemins_sources"]:
+            print("Sources :")
+            for s in res["chemins_sources"]:
+                print(f"   - {s['path_str']}")

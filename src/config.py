@@ -39,5 +39,6 @@ MAX_DEPTH = 20             # profondeur max de parcours (garde-fou anti boucle i
 #   Windows (PowerShell) : $env:GROQ_API_KEY="ta_cle"
 #   Mac/Linux            : export GROQ_API_KEY="ta_cle"
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "llama-3.3-70b-versatile" 
+GROQ_VISION_MODEL = "llama-3.2-11b-vision-preview"
 RAG_TOP_K = 5              # nb de chemins fournis en contexte au LLM (plus que TOP_K du simple retrieval)
