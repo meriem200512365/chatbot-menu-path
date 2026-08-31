@@ -1,0 +1,1933 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Module>
+   <MenuModule Name="MENU_PREMIUM"  MainMenu="MENU_GENERAL">
+      <Menu Name="MENU_GENERAL"  >
+         <MenuItem Name="PARAMETRAGE"  Label="Parametrage" SubMenuName="PARAMETRAGE_MENU" />
+         <MenuItem Name="GRC_SFG"  Label="G.R.C." SubMenuName="GRC_SFG_MENU" />
+         <MenuItem Name="IMMATRICULATION"  Label="Immatriculation" SubMenuName="IMMATRICULATION_MENU" />
+         <MenuItem Name="TRAITEMENTS_DOSSIERS"  Label="Traitements Dossiers" SubMenuName="TRAITEMENTS_DOSSIERS_MENU" />
+         <MenuItem Name="PDT_SFG"  Label="Produits" SubMenuName="PDT_SFG_MENU" />
+         <MenuItem Name="PRESTATIONS"  Label="Prestations" SubMenuName="PRESTATIONS_MENU" />
+         <MenuItem Name="POP_SFG"  Label="Population" SubMenuName="POP_SFG_MENU" />
+         <MenuItem Name="COT_SFG"  Label="Cotisations" SubMenuName="COT_SFG_MENU" />
+         <MenuItem Name="HABILITATION"  Label="Habilitation" SubMenuName="HABILITATION_MENU" />
+         <MenuItem Name="BATCH"  Label="Batchs" SubMenuName="BATCH_MENU" />
+         <MenuItem Name="ECHANGE"  Label="Echanges" SubMenuName="ECHANGE_MENU" />
+         <MenuItem Name="MUTASSIST"  Label="Mutassist" SubMenuName="MUTASSIST_MENU" />
+         <MenuItem Name="BUREAUTIQUE"  Label="Bureautique" SubMenuName="BUREAUTIQUE_MENU" />
+         <MenuItem Name="TRACABILITE"  Label="Tracabilite" SubMenuName="TRACABILITE_MENU" />
+         <MenuItem Name="JOURNALISATION"  Label="Journalisation" SubMenuName="JOURNALISATION_MENU" />
+         <MenuItem Name="HISTORISATION"  Label="Historisation" SubMenuName="HISTORISATION_MENU" />
+         <MenuItem Name="INT_COMPTA"  Label="Int. Compta" SubMenuName="INT_COMPTA_MENU" />
+         <MenuItem Name="CONTROLE_DOSSIERS"  Label="Controle Dossiers" SubMenuName="CONTROLE_DOSSIERS_MENU" />
+         <MenuItem Name="DOSSIERS_MEDICAUX_ADM"  Label="Dossiers Medicaux Administratifs" SubMenuName="DOSSIERS_MEDICAUX_ADM_MENU" />
+         <MenuItem Name="MIG_PILOTAGE"  Label="Migration" SubMenuName="MIG_RUN_MENU" />
+         <MenuItem Name="ACCUEIL"  Label="Accueil" SubMenuName="ACCUEIL_MENU" />
+         <MenuItem Name="WEB"  Label="Web" SubMenuName="WEB_MENU" />
+         <MenuItem Name="CONTENTIEUX"  Label="Contentieux" SubMenuName="CONTENTIEUX_MENU" />
+         <MenuItem Name="CONTROLES"  Label="Controles" SubMenuName="CONTROLES" />
+         <MenuItem Name="DECISIONNEL"  Label="Decisionnel" SubMenuName="DECISIONNEL_MENU" />
+         <MenuItem Name="DEBUG"  Label="Debug" SubMenuName="DEBUG" />
+         <MenuItem Name="AIDE"  Label="Aide" SubMenuName="AIDE" />
+         <MenuItem Name="SORTIE"  Label="Sortie" />
+      </Menu>
+      <Menu Name="PARAMETRAGE_MENU" >
+         <MenuItem Name="NEM_OUT_004T_1"   Label="Test" />
+         <MenuItem Name="PDT_PAR_013T_21_1"   Label="Regles de gestion" />
+         <MenuItem Name="PDT_PAR_025T_21_1"   Label="Alias" />
+         <MenuItem Name="PDT_PAR_022T_21_1"   Label="Parametres applicatifs" />
+         <MenuItem Name="PDT_PAR_032T_21_1"   Label="Repertoires virtuels" />
+         <MenuItem Name="PDT_PAR_021T_21_1"   Label="Editions (Report)" />
+         <MenuItem Name="PDT_PAR_002T_21_1"   Label="Libelles" />
+         <MenuItem Name="PDT_PAR_003T_21_1"   Label="Couleurs" />
+         <MenuItem Name="PDT_PAR_004T_21_1"   Label="Langues" />
+         <MenuItem Name="PDT_PAR_047T_21_1"   Label="Devises" />
+         <MenuItem Name="PDT_PAR_039T_21_1"   Label="Images" />
+         <MenuItem Name="PDT_PAR_012T_21_1"   Label="Messages applicatifs" />
+         <MenuItem Name="PDT_PAR_026T_21_1"   Label="Messages batch" />
+         <MenuItem Name="PDT_PAR_019T_21_1"   Label="Libelles specifiques" />
+         <MenuItem Name="PDT_PAR_018T_21_1"   Label="Bandeaux applicatifs" />
+         <MenuItem Name="PDT_PAR_014T_21_1"   Label="Tables" />
+         <MenuItem Name="PDT_PAR_016T_21_1"   Label="Modules" />
+         <MenuItem Name="PDT_PAR_017T_21_1"   Label="Fonctions de module" />
+         <MenuItem Name="PDT_PAR_005T_21_1"   Label="Liens entre modules" />
+         <MenuItem Name="PDT_PAR_027T_21_1"   Label="Scenarios" />
+         <MenuItem Name="PDT_PAR_028T_21_1"   Label="Boutons des scenarios" />
+         <MenuItem Name="PDT_PAR_001T_21_516"   Label="Gestion des Types d'information de Controles" />
+         <MenuItem Name="PDT_PAR_001T_21_517"   Label="Gestion des Types de Caracteres" />
+         <MenuItem Name="PDT_PAR_050T_21_1"   Label="Gestion des Types de Controles" />
+         <MenuItem Name="PDT_PAR_051T_21_1"   Label="Gestion des Controles" />
+         <MenuItem Name="PDT_PAR_001T_21_489"   Label="Types d'info. comp." />
+         <MenuItem Name="PDT_PAR_046T_21_1"   Label="Listes de valeurs info. comp." />
+         <MenuItem Name="PDT_PAR_048T_21_1"   Label="Typologie info. comp." />
+         <MenuItem Name="PDT_PAR_015T_21_1"   Label="Saisies info. comp." />
+         <MenuItem Name="PDT_PAR_029T_21_1"   Label="Types de document" />
+         <MenuItem Name="PDT_PAR_031T_21_1"   Label="Alerteurs" />
+         <MenuItem Name="PDT_PAR_030T_21_1"   Label="Utilisations d'alerteur" />
+         <MenuItem Name="DEC_REF_001T_1"   Label="Dates dynamiques" />
+         <MenuItem Name="PDT_PAR_035T_21_1"   Label="Correspondance anciennes valeurs" />
+         <MenuItem Name="PDT_PAR_001T_21_434"   Label="Groupes de calcul pour les statistiques" />
+         <MenuItem Name="NEM_REQ_001T_1"   Label="Outil de requetage" />
+         <MenuItem Name="PDT_PAR_041T_21_1"   Label="Menu personnalise" />
+         <MenuItem Name="MEP_MULTIENTITES_PARTAGEES"  Label="MEP (multi-entites partagees)" SubMenuName="MEP_MULTIENTITES_PARTAGEES_MEN" />
+      </Menu>
+      <Menu Name="GRC_SFG_MENU" >
+         <MenuItem Name="REF_VTE_SFG"  Label="Referentiel Ventes" SubMenuName="REF_VTE_SFG_MENU" />
+         <MenuItem Name="REF_SRV_SFG"  Label="Referentiel Services" SubMenuName="REF_SRV_SFG_MENU" />
+         <MenuItem Name="REF_MKT_SFG"  Label="Referentiel Marketing" SubMenuName="REF_MKT_SFG_MENU" />
+         <MenuItem Name="REF_INT_SFG"  Label="Referentiel Integration" SubMenuName="REF_INT_SFG_MENU" />
+         <MenuItem Name="SRV_CTT_SFD"  Label="Contact" SubMenuName="SRV_CTT_SFD_MENU" />
+         <MenuItem Name="SRV_TRE_SFD"  Label="Trace" SubMenuName="SRV_TRE_SFD_MENU" />
+         <MenuItem Name="INT_INT_SFD"  Label="Integration" SubMenuName="INT_INT_SFD_MENU" />
+         <MenuItem Name="SRV_VGL_001T_1"   Label="Visu Globale des Personnes" />
+         <MenuItem Name="SRV_VGL_002T_1"   Label="Visu Globale des Collectivites" />
+         <MenuItem Name="SRV_VGL_003T_1"   Label="Visu Globale des Ps / Etab." />
+         <MenuItem Name="MKT_CMP_001T_1"  Label="Campagne Marketing" />
+         <MenuItem Name="MKT_COM_002T_1"  Label="Gestion du Planning" />
+      </Menu>
+      <Menu Name="IMMATRICULATION_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_519"   Label="Gestion des Types d'Enrolement" />
+         <MenuItem Name="PDT_PAR_001T_21_522"   Label="Gestion des Issues de Demande d'Immat. Personne" />
+         <MenuItem Name="PDT_PAR_001T_21_521"   Label="Gestion des Etats de Demande Immatriculation" />
+         <MenuItem Name="IMM_REF_001T_1"   Label="Gestion des Etats de Demande d'Immat. Personne" />
+         <MenuItem Name="IMM_REF_002T_1"   Label="Gestion des Types de Demandes d'Immatriculation" />
+      </Menu>
+      <Menu Name="REF_VTE_SFG_MENU" >
+         <MenuItem Name="VTE_REF_SFD_PDT"  Label="Produit" SubMenuName="VTE_REF_SFD_PDT_MENU" />
+         <MenuItem Name="VTE_ACT_SFD_REF"  Label="Acteur" SubMenuName="VTE_ACT_SFD_REF_MENU" />
+         <MenuItem Name="VTE_REF_SFD_DEV"  Label="Devis" SubMenuName="VTE_REF_SFD_DEV_MENU" />
+         <MenuItem Name="VTE_REF_SFD_DEV_2" KeyboardAccelerator="W"  Label="Devis Web" SubMenuName="VTE_REF_SFD_DEV_2_MENU" />
+         <MenuItem Name="VTE_REF_SFD_EXT"  Label="Devis Externe" SubMenuName="VTE_REF_SFD_EXT_MENU" />
+      </Menu>
+      <Menu Name="REF_INT_SFG_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_271"   Label="Gestion des Types de Colonnes" />
+         <MenuItem Name="INT_INT_001T_1"  Label="Gestion des Dictionnaires de Synonymes" />
+         <MenuItem Name="INT_INT_002T_1"  Label="Gestion des Objets a Integrer" />
+         <MenuItem Name="INT_INT_013T_1"  Label="Gestion des Anomalies d'Integration" />
+         <MenuItem Name="INT_INT_008T_1"  Label="Parametrage du De-doublonnage de l'Integration" />
+         <MenuItem Name="INT_INT_010T_1"  Label="Gestion des Scenarios d'Integration" />
+         <MenuItem Name="REF_NSI"  Label="Referentiel NSI" SubMenuName="REFERENTIEL_NSI_MENU" />
+      </Menu>
+      <Menu Name="MKT_COM_MENU" >
+         <MenuItem Name="MKT_COM_001T_1"  Label="Gestion des Droits aux Agents" />
+         <MenuItem Name="PDT_PAR_001T_21_446"  Label="Gestion des Serveurs de Messagerie" />
+         <MenuItem Name="MKT_COM_005T_1"  Label="Gestion des Comptes" />
+         <MenuItem Name="PDT_PAR_001T_21_288"  Label="Gestion des Fonctions de Participants" />
+         <MenuItem Name="PDT_PAR_001T_21_285"  Label="Gestion des Qualificatifs d'Entretien" />
+         <MenuItem Name="PDT_PAR_001T_21_287"  Label="Gestion des Lieux de RDV" />
+         <MenuItem Name="PDT_PAR_001T_21_286"  Label="Gestion des Types d'Accueil" />
+         <MenuItem Name="MKT_COM_006T_1"  Label="Gestion des Etats de Rendez Vous" />
+      </Menu>
+      <Menu Name="MKT_FILTRE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_284"  Label="Gestion des Motifs d'Exclusion" />
+         <MenuItem Name="MKT_REF_004T_1"  Label="Gestion des Filtres" />
+      </Menu>
+      <Menu Name="MKT_CIBLE_MENU" >
+         <MenuItem Name="MKT_CIB_001T_1"  Label="Gestion des Fournisseurs de Donnees" />
+         <MenuItem Name="MKT_CIB_002T_1"  Label="Gestion des Droits des Utilisateurs Cible" />
+         <MenuItem Name="PDT_PAR_001T_21_277"  Label="Gestion des Types de Cibles" />
+         <MenuItem Name="PDT_PAR_001T_21_325"  Label="Gestion des Portees de Cibles" />
+         <MenuItem Name="PDT_PAR_001T_21_447"  Label="Gestion des Destinations de Cibles" />
+         <MenuItem Name="MKT_REF_013T_1"  Label="Compatibilite Destination et Type de Cible" />
+         <MenuItem Name="MKT_CIB_003T_1"  Label="Gestion des Dates Dynamiques" />
+         <MenuItem Name="PDT_PAR_001T_21_371"  Label="Gestion des Unites de Limitation" />
+         <MenuItem Name="PDT_PAR_001T_21_372"  Label="Gestion des Types de Limitation" />
+         <MenuItem Name="MKT_REF_005T_1"  Label="Gestion des Cibles" />
+      </Menu>
+      <Menu Name="MKT_QREP_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_280"  Label="Gestion des Types de Nombre de Reponses" />
+         <MenuItem Name="MKT_REF_006T_1"  Label="Gestion des Listes de Reponses" />
+         <MenuItem Name="MKT_REF_007T_1"  Label="Gestion des Objections" />
+         <MenuItem Name="MKT_REF_008T_1"  Label="Gestion des Listes d'Objections" />
+         <MenuItem Name="PDT_PAR_001T_21_276"  Label="Gestion des Conditions" />
+         <MenuItem Name="MKT_REF_012T_1"  Label="Gestion des Balises" />
+         <MenuItem Name="PDT_PAR_001T_21_283"  Label="Gestion des Motifs d'Issue" />
+         <MenuItem Name="PDT_PAR_001T_21_433"  Label="Gestion des Motifs d'Issue des Comptes-Rendus" />
+         <MenuItem Name="MKT_REF_009T_1"  Label="Gestion des Questionnaires" />
+      </Menu>
+      <Menu Name="MKT_PLANIF_MENU" >
+         <MenuItem Name="MKT_REF_001T_1"  Label="Gestion des Methodes de Planification" />
+         <MenuItem Name="MKT_REF_010B_1"  Label="Generation des Packages de Planification" />
+      </Menu>
+      <Menu Name="MKT_ACTION_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_278"  Label="Gestion des Reliquats" />
+         <MenuItem Name="MKT_REF_002T_1"  Label="Gestion des Types d'Actions" />
+         <MenuItem Name="PDT_PAR_001T_21_484"  Label="Gestion des Types de Clotures de Tache" />
+      </Menu>
+      <Menu Name="MKT_COUT_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_272"  Label="Gestion des Types de Cout" />
+         <MenuItem Name="PDT_PAR_001T_21_273"  Label="Gestion des Niveaux d'Application" />
+         <MenuItem Name="PDT_PAR_001T_21_274"  Label="Gestion des Types de Calcul" />
+         <MenuItem Name="PDT_PAR_001T_21_275"  Label="Gestion des Operateurs" />
+         <MenuItem Name="PDT_PAR_001T_21_279"  Label="Gestion des Sens de Cout" />
+         <MenuItem Name="PDT_PAR_001T_21_281"  Label="Gestion des Variables" />
+         <MenuItem Name="PDT_PAR_001T_21_282"  Label="Gestion des Unites" />
+         <MenuItem Name="MKT_REF_003T_1"  Label="Gestion des Couts" />
+      </Menu>
+      <Menu Name="REF_MKT_SFG_MENU" >
+         <MenuItem Name="MKT_REF_011T_1"  Label="Parametrage General" />
+         <MenuItem Name="MKT_REF_COM" MenuItemType="Plain"  Label="Commercial" SubMenuName="MKT_COM_MENU" />
+         <MenuItem Name="MKT_REF_PLANIF"  Label="Planification" SubMenuName="MKT_PLANIF_MENU" />
+         <MenuItem Name="MKT_REF_FILTRE"  Label="Filtre" SubMenuName="MKT_FILTRE_MENU" />
+         <MenuItem Name="MKT_REF_CIBLE"  Label="Cible" SubMenuName="MKT_CIBLE_MENU" />
+         <MenuItem Name="MKT_REF_COUT"  Label="Cout" SubMenuName="MKT_COUT_MENU" />
+         <MenuItem Name="MKT_REF_ACTION"  Label="Action" SubMenuName="MKT_ACTION_MENU" />
+         <MenuItem Name="MKT_REF_QREP"  Label="Question / Reponse" SubMenuName="MKT_QREP_MENU" />
+      </Menu>
+      <Menu Name="VTE_REF_SFD_PDT_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_292"   Label="Gestion des Motifs d'Invalidite d'Integration" />
+         <MenuItem Name="PDT_PAR_001T_21_327"   Label="Gestion des Types de Frequence" />
+         <MenuItem Name="PDT_PAR_001T_21_247"   Label="Gestion des Types de Produit GRC" />
+         <MenuItem Name="PDT_PAR_001T_21_419"   Label="Gestion des Types de Tarificateur" />
+         <MenuItem Name="VTE_REF_009T_1"   Label="Gestion des Droits" />
+         <MenuItem Name="VTE_REF_008T_1"   Label="Gestion des Caracteristiques" />
+         <MenuItem Name="VTE_REF_001T_1"   Label="Gestion des Produits GRC" />
+         <MenuItem Name="PDT_DEF_001T_2"   Label="Gestion des Gammes de Produit GRC" />
+         <MenuItem Name="VTE_REF_002T_1"   Label="Gestion des Concurrents" />
+      </Menu>
+      <Menu Name="VTE_ACT_SFD_REF_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_238"   Label="Gestion des Conventions Collectives" />
+         <MenuItem Name="VTE_REF_023T_1"   Label="Gestion des Listes de Conventions Collectives" />
+         <MenuItem Name="VTE_REF_010T_1"   Label="Gestion des Liens NAF / Conventions Collectives" />
+         <MenuItem Name="PDT_PAR_001T_21_270"   Label="Gestion des Motifs de Topage" />
+         <MenuItem Name="PDT_PAR_001T_21_242"   Label="Gestion des Origines" />
+         <MenuItem Name="INT_INT_003T_1"   Label="Gestion des Origines d'Integration" />
+         <MenuItem Name="PDT_PAR_001T_21_243"   Label="Gestion des Professions" />
+         <MenuItem Name="PDT_PAR_001T_21_520"   Label="Gestion des Fonctions" />
+         <MenuItem Name="PDT_PAR_001T_21_244"   Label="Gestion des Tranches de Revenus" />
+         <MenuItem Name="PDT_PAR_001T_21_246"   Label="Gestion des Types de Famille" />
+         <MenuItem Name="POP_REF_021T_1"   Label="Gestion des Types de Document d'Acteur" />
+         <MenuItem Name="PDT_PAR_001T_21_239"   Label="Gestion des Exercices Comptables" />
+         <MenuItem Name="VTE_REF_022T_1"   Label="Gestion des Groupes de Salaries" />
+         <MenuItem Name="PDT_PAR_001T_21_241"   Label="Gestion des Implantations de Collectivite" />
+         <MenuItem Name="PDT_REF_002T_2"   Label="Gestion des Types de Role GRC" />
+         <MenuItem Name="PDT_PAR_001T_21_449"   Label="Gestion des Tranches d' Effectif" />
+         <MenuItem Name="VTE_REF_011T_1"   Label="Gestion des Plages de Jours" />
+         <MenuItem Name="VTE_REF_012T_1"   Label="Gestion des Plages d'Heures" />
+         <MenuItem Name="POP_REF_055T_1"   Label="Gestion des Types de Liens entre personnes" />
+         <MenuItem Name="PDT_PAR_001T_21_343"   Label="Gestion des Causes de Resiliation" />
+         <MenuItem Name="VTE_REF_013T_1"   Label="Gestion des Types de Destinataire" />
+         <MenuItem Name="VTE_REF_014T_1"   Label="Gestion du Parametrage des Resiliations" />
+         <MenuItem Name="VTE_REF_016T_1"   Label="Parametrage des Info Obligatoires" />
+      </Menu>
+      <Menu Name="VTE_REF_SFD_DEV_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_236"   Label="Gestion des Dates de Ref. des Cycles de Vie" />
+         <MenuItem Name="PDT_PAR_001T_21_420"   Label="Gestion des Listes de Tarificateur" />
+         <MenuItem Name="PDT_PAR_001T_21_237"   Label="Gestion des Types de Lot de Produit GRC" />
+         <MenuItem Name="PDT_PAR_001T_21_421"   Label="Gestion des Types de Proposition" />
+         <MenuItem Name="PDT_PAR_001T_21_342"   Label="Gestion des Types de Restrictions Produit" />
+         <MenuItem Name="PDT_PAR_001T_21_442"   Label="Gestion des Motifs d'Adhesion de Devis" />
+         <MenuItem Name="VTE_REF_019T_1"   Label="Gestion des Types de Courrier de Devis" />
+         <MenuItem Name="VTE_REF_003T_1"   Label="Gestion des Documents a Fournir" />
+         <MenuItem Name="VTE_REF_004T_1"   Label="Gestion des Clauses" />
+         <MenuItem Name="VTE_REF_015T_1"   Label="Gestion des Issues de Cycle de Vie d'un Devis" />
+         <MenuItem Name="VTE_REF_005T_1"   Label="Gestion des Lots de Produit de Complement" />
+         <MenuItem Name="VTE_REF_005T_2"   Label="Gestion des Lots de Message d'Alerte" />
+         <MenuItem Name="VTE_REF_006T_1"   Label="Gestion des Etats de Devis" />
+         <MenuItem Name="VTE_REF_007T_1"   Label="Gestion des Types de Devis" />
+         <MenuItem Name="VTE_REF_020T_1"   Label="Gestion des Types de Bareme de Prestations" />
+         <MenuItem Name="VTE_REF_021T_1"   Label="Gestion des Types de Bareme de Cotisations" />
+      </Menu>
+      <Menu Name="VTE_REF_SFD_DEV_2_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_380"  KeyboardAccelerator="E"  Label="Gestion des Etats de Scenario Web" />
+         <MenuItem Name="PDT_PAR_001T_21_381"  KeyboardAccelerator="Q"  Label="Gestion des Types de Question de Scenario Web" />
+         <MenuItem Name="PDT_PAR_001T_21_382"  KeyboardAccelerator="P"  Label="Gestion des Points d'Entree de Scenario Web" />
+         <MenuItem Name="PDT_PAR_001T_21_444"   Label="Gestion des Types de Structure des Devis WEB" />
+         <MenuItem Name="VTE_REF_005T_3"  KeyboardAccelerator="L"  Label="Gestion des Lots de Produit de Complement Web" />
+         <MenuItem Name="VTE_REF_007T_2"   Label="Gestion des Types de Devis Web" />
+         <MenuItem Name="VTE_REF_017T_1"  KeyboardAccelerator="S"  Label="Gestion des Scenarii de Devis Web" />
+         <MenuItem Name="VTE_DEV_009T_1"  Label="Gestion des Codes Promo Web" />
+         <MenuItem Name="VTE_REF_018T_1"   Label="Utilisation des Points d'Entree de Scenario Web" />
+         <MenuItem Name="VTE_DEV_008T_1"   Label="Pilotage des Devis Web" />
+      </Menu>
+      <Menu Name="VTE_REF_SFD_EXT_MENU" >
+         <MenuItem Name="VTE_DEV_008T_2"   Label="Pilotage des Devis Externes" />
+      </Menu>
+      <Menu Name="REF_SRV_SFG_MENU" >
+         <MenuItem Name="SRV_CTT_SFD_REF"  Label="Contact" SubMenuName="SRV_CTT_SFD_REF_MENU" />
+         <MenuItem Name="SRV_TRE_SFD_REF"  Label="Trace" SubMenuName="SRV_TRE_SFD_REF_MENU" />
+         <MenuItem Name="SRV_VGL_SFD_REF"  Label="Visu Globale" SubMenuName="SRV_VGL_SFD_REF_MENU" />
+      </Menu>
+      <Menu Name="SRV_CTT_SFD_REF_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_251"   Label="Gestion des Types de Delai" />
+         <MenuItem Name="PDT_PAR_001T_21_250"   Label="Gestion des Domaines de Taches" />
+         <MenuItem Name="PDT_PAR_001T_21_252"   Label="Gestion des Domaines de Contacts" />
+         <MenuItem Name="PDT_PAR_001T_21_255"   Label="Gestion des Natures de Contacts" />
+         <MenuItem Name="PDT_PAR_001T_21_294"   Label="Gestion des Issues de Taches" />
+         <MenuItem Name="PDT_PAR_001T_21_298"   Label="Gestion des Motifs d'Absence" />
+         <MenuItem Name="SRV_CTT_012T_1"   Label="Gestion des Priorites de Taches" />
+         <MenuItem Name="SRV_CTT_013T_1"   Label="Gestion de la Nature de Contact d'un Agent" />
+         <MenuItem Name="PRR_RBT_002T_1"   Label="Gestion des Messages" />
+         <MenuItem Name="SRV_CTT_014T_1"   Label="Gestion des Reponses aux Questions " />
+         <MenuItem Name="SRV_CTT_001T_1"   Label="Gestion des Groupes d'Agents" />
+         <MenuItem Name="SRV_CTT_002T_1"   Label="Gestion des Types de Taches" />
+         <MenuItem Name="SRV_CTT_003T_1"   Label="Gestion des Types de Contacts" />
+         <MenuItem Name="SRV_CTT_004T_1"   Label="Gestion des Etats de Taches" />
+         <MenuItem Name="SRV_CTT_005T_1"   Label="Gestion des Groupes d'Etats de Taches" />
+      </Menu>
+      <Menu Name="SRV_TRE_SFD_REF_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_253"   Label="Gestion des Origines de Traces" />
+         <MenuItem Name="PDT_PAR_001T_21_254"   Label="Gestion des Qualificatifs de Traces" />
+         <MenuItem Name="SRV_TRE_001T_1"   Label="Gestion des Domaines de Traces" />
+         <MenuItem Name="SRV_TRE_002T_1"   Label="Gestion des Types de Traces" />
+      </Menu>
+      <Menu Name="SRV_VGL_SFD_REF_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_269"   Label="Gestion des Types d'Anciennete" />
+         <MenuItem Name="PDT_PAR_001T_21_397"   Label="Gestion Types Affichage Proposition Devis GRC" />
+         <MenuItem Name="SRV_VGL_004T_1"   Label="Gestion des Anciennetes Maximales" />
+      </Menu>
+      <Menu Name="SRV_CTT_SFD_MENU" >
+         <MenuItem Name="SRV_CTT_006T_1"   Label="Gestion des Contacts" />
+         <MenuItem Name="SRV_CTT_007T_1"   Label="Suivi des Contacts" />
+         <MenuItem Name="SRV_CTT_008T_1"   Label="Suivi des Taches" />
+         <MenuItem Name="SRV_CTT_009T_1"   Label="Ecran d'Accueil" />
+         <MenuItem Name="SRV_CTT_010T_1"   Label="Gestion des Absences d'Agents" />
+         <MenuItem Name="SRV_CTT_011T_1"   Label="Affectation en Masse de Taches" />
+      </Menu>
+      <Menu Name="SRV_TRE_SFD_MENU" >
+         <MenuItem Name="SRV_TRE_003T_1"   Label="Suivi des Traces par Acteur" />
+      </Menu>
+      <Menu Name="INT_INT_SFD_MENU" >
+         <MenuItem Name="INT_INT_004T_1"   Label="Recyclage des objets a integrer" />
+         <MenuItem Name="INT_INT_005T_1"   Label="De-doublonnage de Personne" />
+         <MenuItem Name="INT_INT_006T_1"   Label="De-doublonnage de Collectivite" />
+         <MenuItem Name="INT_INT_017T_1"   Label="Rapprochement de deux Personnes" />
+         <MenuItem Name="INT_INT_018T_1"   Label="Rapprochement de deux Collectivites" />
+         <MenuItem Name="INT_INT_019T_1"   Label="Dates de Lancement d'Integration" />
+      </Menu>
+      <Menu Name="REFERENTIEL_NSI_MENU" >
+         <MenuItem Name="INT_INT_014T_1"  Label="Gestion des Types de Contrat NSI a Integrer" />
+         <MenuItem Name="INT_INT_015T_1"  Label="Gestion des Types de Lien Famille NSI a Integrer" />
+         <MenuItem Name="INT_INT_016T_1"  Label="Gestion des Types de Role Contrat NSI a Integrer" />
+      </Menu>
+      <Menu Name="TRAITEMENTS_DOSSIERS_MENU" >
+         <MenuItem Name="PARAMETRAGE_TDM"  Label="Parametrage" SubMenuName="PARAMETRAGE_MENU_2" />
+         <MenuItem Name="CONSTITUTION_DES_LOTS"  Label="Constitution des Lots" SubMenuName="CONSTITUTION_DES_LOTS_MENU" />
+         <MenuItem Name="PAIEMENTS"  Label="Paiements" SubMenuName="PAIEMENTS_MENU" />
+         <MenuItem Name="RELEVES"  Label="Releves" SubMenuName="RELEVES_MENU" />
+         <MenuItem Name="GALERIE"  Label="Galeries" SubMenuName="MENU_GALERIE" />
+      </Menu>
+      <Menu Name="PARAMETRAGE_MENU_2" >
+         <MenuItem Name="PARAM1"  Label="Referentiel" SubMenuName="PARAM1_MENU" />
+         <MenuItem Name="PAIEMENT"  Label="Paiement" SubMenuName="PAIEMENT_MENU" />
+         <MenuItem Name="COMPTE_DE_TIERS"  Label="Compte de Tiers" SubMenuName="COMPTE_DE_TIERS_MENU" />
+         <MenuItem Name="AVANCEINDU"  Label="Avance-Indu" SubMenuName="AVANCEINDU_MENU" />
+         <MenuItem Name="JOURNAUX_DE_PRESTATIONS"  Label="Journaux de Prestations" SubMenuName="JOURNAUX_DE_PRESTATIONS_MENU" />
+         <MenuItem Name="RELEVES"  Label="Releves" SubMenuName="PARAM_RELEVES" />
+      </Menu>
+      <Menu Name="CONSTITUTION_DES_LOTS_MENU" >
+         <MenuItem Name="TDM_CGT_001T_1"  Label="Constitution des Lots par Defaut" />
+         <MenuItem Name="TDM_CGT_002T_1"  Label="Constitution des Groupes de Traitements" />
+      </Menu>
+      <Menu Name="PAIEMENTS_MENU" >
+         <MenuItem Name="PAI_EPA_003T_1"  Label="Lancement des Paiements" />
+         <MenuItem Name="PAI_REF_003T_1"  Label="Gestion des Rejets Bancaires" />
+         <MenuItem Name="PAI_EPA_005T_1"  Label="Annulation des Cheques" />
+         <MenuItem Name="PAI_EPA_005T_2"  Label="Rejet Manuel de Virement" />
+         <MenuItem Name="PAI_INT_004T_1"  Label="Visualisation des Paiements" />
+         <MenuItem Name="PAI_INT_008T_1"  Label="Visualisation des Paiements EXT" />
+         <MenuItem Name="PAI_EPA_008T_1"  Label="Visu. des Paiements aux Centres RO" />
+         <MenuItem Name="PAI_EPA_006T_1"  Label="Gestion des Planches de Cheques" />
+         <MenuItem Name="PAI_EPA_007T_1"  Label="Renumerotation des cheques" />
+         <MenuItem Name="PAI_AID_002T_1"  Label="Gestion des Avances" />
+         <MenuItem Name="PAI_AID_003T_1"  Label="Gestion des Indus" />
+      </Menu>
+      <Menu Name="RELEVES_MENU" >
+         <MenuItem Name="TDM_PLN_001T_1"  Label="Gestion des lots de Releves" />
+         <MenuItem Name="TDM_PLN_002T_1"  Label="Planification des Releves" />
+         <MenuItem Name="TDM_EDT_005T_1"  Label="Reedition d'un Releve" />
+         <MenuItem Name="TDM_EDT_007T_1"  Label="Duplicata de Decompte" />
+      </Menu>
+      <Menu Name="PDT_SFG_MENU" >
+         <MenuItem Name="PDT_REF_SFD"  Label="Referentiel " SubMenuName="PDT_REF_SFD_MENU" />
+         <MenuItem Name="PDT_DEF_SFD_PREST"  Label="Definition Prest." SubMenuName="PDT_DEF_SFD_PREST_MENU" />
+         <MenuItem Name="PDT_DEF_SFD_COTIS"  Label="Definition Cotis." SubMenuName="PDT_DEF_SFD_COTIS_MENU" />
+         <MenuItem Name="PDT_TAR_SFD"  Label="Tarification" SubMenuName="PDT_TAR_SFD_MENU" />
+         <MenuItem Name="PDT_DUP_SFD"  Label="Duplication" SubMenuName="PDT_DUP_SFD_MENU" />
+      </Menu>
+      <Menu Name="PDT_REF_SFD_MENU" >
+         <MenuItem Name="PDT_REF_GEN"  Label="General" SubMenuName="PDT_REF_GEN_MENU" />
+         <MenuItem Name="PDT_REF_BNQ"  Label="Banque" SubMenuName="PDT_REF_BNQ_MENU" />
+         <MenuItem Name="PDT_REF_AGE"  Label="Agence" SubMenuName="PDT_REF_AGE_MENU" />
+         <MenuItem Name="PDT_REF_ORG"  Label="Organisme" SubMenuName="PDT_REF_ORG_MENU" />
+         <MenuItem Name="PRR_CAC"  Label="CAC" SubMenuName="PRR_CAC_MENU" />
+         <MenuItem Name="PRR_FUBE"  Label="FUBE" SubMenuName="PRR_FUB_MENU" />
+         <MenuItem Name="PRR_BED"  Label="BED" SubMenuName="PRR_BED_MENU" />
+         <MenuItem Name="PRR_CAS"  Label="Carte Assure" SubMenuName="PRR_CAS_MENU" />
+         <MenuItem Name="PDT_REF_INT"  Label="Interface" SubMenuName="PDT_REF_INT_MENU" />
+         <MenuItem Name="PDT_REF_ANI"  Label="ANI" SubMenuName="PDT_REF_ANI_MENU" />
+      </Menu>
+      <Menu Name="PDT_REF_GEN_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_18"   Label="Gestion des Domaines d'Application" />
+         <MenuItem Name="PDT_PAR_001T_21_407"   Label="Gestion du Parametrage du Millesime" />
+         <MenuItem Name="PDT_REF_002T_1"   Label="Gestion des Types de Role" />
+         <MenuItem Name="PDT_PAR_001T_21_17"   Label="Gestion des Symboles" />
+         <MenuItem Name="PDT_REF_004T_1"   Label="Gestion des Types de Valeur" />
+         <MenuItem Name="PDT_REF_003T_1"   Label="Gestion des Variables" />
+         <MenuItem Name="PDT_PAR_001T_21_29"   Label="Gestion des Unites de Tranche" />
+         <MenuItem Name="PDT_DEF_002T_1"   Label="Gestion des Tranches de Valeurs" />
+         <MenuItem Name="PDT_REF_005T_1"   Label="Gestion des Types de Frequence" />
+         <MenuItem Name="COT_ECH_006T_1"   Label="Gestion des Decalages d'echeancier" />
+         <MenuItem Name="PDT_PAR_001T_21_21"   Label="Gestion des Services" />
+         <MenuItem Name="PDT_PAR_001T_21_172"   Label="Gestion des Categories de Frais" />
+         <MenuItem Name="PDT_PAR_001T_21_222"   Label="Gestion des Motifs de Non Application des Frais" />
+         <MenuItem Name="PDT_PAR_001T_21_173"   Label="Gestion des Niveaux d'Application de Frais" />
+         <MenuItem Name="PDT_PAR_001T_21_20"   Label="Gestion des Types de Frais" />
+         <MenuItem Name="PDT_REF_006T_1"   Enabled="true" Label="Gestion des Frais" />
+         <MenuItem Name="PDT_REF_016T_1"   Label="Gestion des Types de Niveau de rappel" />
+         <MenuItem Name="PDT_REF_019T_1"   Label="Parametrage des Regles de Risque d'Anomalie " />
+         <MenuItem Name="PRR_RBT_001T_1"   Label="Gestion des Types de Message" />
+         <MenuItem Name="PRR_RBT_002T_1"   Label="Gestion des Messages" />
+         <MenuItem Name="PRR_PTS_009T_1"   Label="Gestion des Rubriques Bloc Note" />
+      </Menu>
+      <Menu Name="PDT_REF_BNQ_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_22"   Label="Gestion des Activites Bancaires" />
+         <MenuItem Name="PDT_PAR_001T_21_23"   Label="Gestion des Emetteurs Bancaires" />
+         <MenuItem Name="PDT_PAR_001T_21_465"   Label="Gestion des ICS" />
+         <MenuItem Name="PDT_PAR_001T_21_24"   Label="Gestion des Classes de Motifs de Referentiel" />
+         <MenuItem Name="PDT_REF_007T_1"   Label="Gestion des Motifs de Blocage de Referentiel" />
+         <MenuItem Name="PDT_REF_008T_1"   Label="Gestion des Motifs d'Anomalie de Referentiel" />
+         <MenuItem Name="PDT_REF_009T_1"   Label="Gestion des Etablissements Bancaires" />
+         <MenuItem Name="PDT_PAR_001T_21_315"   Label="Gestion des anomalies d'echange de RIB" />
+         <MenuItem Name="PDT_PAR_001T_21_387"   Label="Gestion des Types de Demande de Maj Des RIBs" />
+         <MenuItem Name="PDT_PAR_001T_21_388"   Label="Gestion des Types d'Impacts de Maj Des RIBs" />
+         <MenuItem Name="POP_ACT_005T_1"   Label="Gestion des Mises a Jour des RIBs" />
+      </Menu>
+      <Menu Name="PDT_REF_AGE_MENU" >
+         <MenuItem Name="PDT_REF_020T_1"   Label="Gestion des Types d'Agence" />
+         <MenuItem Name="PDT_REF_013T_1"   Label="Gestion des Agences" />
+      </Menu>
+      <Menu Name="PDT_REF_ORG_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_26"   Label="Gestion des Types d'Organisme" />
+         <MenuItem Name="PDT_REF_030T_1"   Label="Gestion des Origines d'Organisme" />
+         <MenuItem Name="PDT_REF_031T_1"   Label="Gestion des Types de Destinataire Liquidation" />
+         <MenuItem Name="PDT_PAR_001T_21_156"   Label="Gestion des Portees de Frais de Subsistant" />
+         <MenuItem Name="PDT_PAR_001T_21_157"   Label="Gestion des Types de Convention de Subsistant" />
+         <MenuItem Name="PDT_PAR_001T_21_158"   Label="Gestion des Types de Frais de Subsistant" />
+         <MenuItem Name="PDT_REF_001T_1"   Label="Gestion des Groupements d'Organismes" />
+         <MenuItem Name="PDT_REF_017T_1"   Label="Gestion des Types de Reference d'Organisme" />
+         <MenuItem Name="PDT_REF_014T_1"   Label="Gestion des Organismes" />
+      </Menu>
+      <Menu Name="PDT_REF_ANI_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_513"   Label="Gestion des Types d'Accord ANI" />
+         <MenuItem Name="PDT_PAR_001T_21_514"   Label="Gestion des Etats d'Avenant d'Accord ANI" />
+         <MenuItem Name="PDT_ANI_001T_1"   Label="Gestion des Accords ANI" />
+      </Menu>
+      <Menu Name="PRR_CAC_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_360"   Label="Gestion des Domaines de Formules STS" />
+         <MenuItem Name="PRR_CAC_002T_1"   Label="Gestion des Modules de Tarification" />
+         <MenuItem Name="PRR_CAC_003T_1"   Label="Formules de Tarification des Modules STS dans PV3" />
+         <MenuItem Name="PRR_CAC_001T_1"   Label="Gestion des Etats de Cartes Vitale" />
+         <MenuItem Name="PDT_PAR_001T_21_362"   Label="Gestion des Anomalies Carte Vitale" />
+         <MenuItem Name="PRR_CAC_012T_1"   Label="Gestion des Reponses de Notifications CAC" />
+         <MenuItem Name="PDT_PAR_001T_21_363"   Label="Gestion des Raisons de Notifications CAC" />
+         <MenuItem Name="PRR_CAC_013T_1"   Label="Gestion des Reponses de Notifications Benef. CAC" />
+         <MenuItem Name="PDT_PAR_001T_21_366"   Label="Gestion des Raisons de Notifications Benef. CAC" />
+      </Menu>
+      <Menu Name="PDT_DEF_SFD_PREST_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_35"   Label="Gestion des Genres de Produit" />
+         <MenuItem Name="PDT_PAR_001T_21_108"   Label="Gestion des Types de Grille de Prestation" />
+         <MenuItem Name="PDT_PAR_001T_21_36"   Label="Gestion des Types de Partenaire" />
+         <MenuItem Name="PDT_PAR_001T_21_540"   Label="Gestion des types de calcul des droits de produit" />
+         <MenuItem Name="PDT_DEF_017T_1"   Label="Gestion des Natures de Produit" />
+         <MenuItem Name="PDT_DEF_018T_1"   Label="Gestion des Types de Produit" />
+         <MenuItem Name="PDT_DEF_006T_1"   Label="Gestion des Niveaux de Produit" />
+         <MenuItem Name="PDT_DEF_007T_1"   Label="Gestion des Types de Categorie de Prestations" />
+         <MenuItem Name="PDT_DEF_005T_1"   Label="Gestion des Grilles de Stage" />
+         <MenuItem Name="PDT_DEF_005T_2"   Label="Gestion des Grilles de Limite et Prestations" />
+         <MenuItem Name="PDT_DEF_015T_1"   Label="Gestion des Types de Groupements" />
+         <MenuItem Name="PDT_DEF_012T_1"   Label="Gestion des Groupements" />
+         <MenuItem Name="PDT_DEF_010T_1"   Label="Gestion des Types de Document de Produit" />
+         <MenuItem Name="PRR_PDT_001T_1"   Label="Gestion des Stages d'un Produit" />
+         <MenuItem Name="PRR_PDT_002T_1"   Label="Gestion des Couvertures" />
+         <MenuItem Name="PDT_DEF_001T_4"   Label="Gestion des Gammes de Couverture" />
+         <MenuItem Name="PRR_PDT_003T_1"   Label="Gestion des Garanties" />
+         <MenuItem Name="PRR_PDT_004T_1"   Label="Affectation de Limites / Produits" />
+         <MenuItem Name="PRR_PDT_004T_2"   Label="Affectation de Franchises / Produits" />
+         <MenuItem Name="PDT_PAR_001T_21_310"   Label="Gestion des Types de Transfert de Stages" />
+         <MenuItem Name="PDT_DEF_014T_1"   Label="Gestion du Parametrage de Transfert de Stages" />
+         <MenuItem Name="PDT_DEF_001T_1"   Label="Gestion des Gammes de Produit" />
+         <MenuItem Name="PRR_ACT_017T_1"   Label="Gestion des Criteres par Gamme Produit/Groupe Acte" />
+         <MenuItem Name="PDT_DEF_008T_1"   Label="Gestion des Produits (Prestations)" />
+         <MenuItem Name="PRR_PDT_006T_1"   Label="Duplication de Produit" />
+         <MenuItem Name="PRR_RBT_002T_1"   Label="Gestion des Messages PRR_RBT_002T" />
+         <MenuItem Name="PDT_PAR_001T_21_547"  Label="Gestion des Types de Taux de Risque BED" />
+         <MenuItem Name="PDT_PAR_001T_21_207"   Label="Gestion des Types d'Info Carte TP" />
+         <MenuItem Name="PRR_CTP_003T_1"   Label="Gestion des Criteres de Comparaison de Cartes TP" />
+         <MenuItem Name="PRR_CTP_001T_1"   Label="Parametrage des Cartes Mutuelles" />
+         <MenuItem Name="PRR_CAC_004T_1"   Label="Parametrage des Cartes Vitale" />
+         <MenuItem Name="PRR_FUB_001T_1"   Label="Parametrage des Cartes FUBE" />
+         <MenuItem Name="PRR_BED_001T_1"   Label="Parametrage des Cartes BED" />
+         <MenuItem Name="PDT_PAR_001T_21_541"   Label="Gestion des Types de controle de Donnees" />
+         <MenuItem Name="PDT_REF_032T_1"   Label="Visu des contextes de controle de compatibilite" />
+         <MenuItem Name="PDT_REF_035T_1"   Label="Visualisation des Donnees de Controle" />
+         <MenuItem Name="PDT_REF_033T_1"   Label="Gestion des Groupes de Valeurs de Donnees" />
+         <MenuItem Name="PDT_REF_034T_1"   Label="Gestion des Regles de Controle de Donnees" />
+      </Menu>
+      <Menu Name="PDT_DEF_SFD_COTIS_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_19"   Label="Gestion des Types d'Appel de Produit" />
+         <MenuItem Name="PDT_PAR_001T_21_43"   Label="Gestion des Modes de Calcul d'Age" />
+         <MenuItem Name="PDT_PAR_001T_21_430"   Label="Gestion des Types de Gestion TP" />
+         <MenuItem Name="PDT_PAR_001T_21_28"   Label="Gestion des Modes d'Arrondi de Date" />
+         <MenuItem Name="PDT_DEF_016T_1"   Label="Gestion des Regles d'Arrondi de Date" />
+         <MenuItem Name="PDT_PAR_001T_21_30"   Label="Gestion des Types de Classe de Gammes" />
+         <MenuItem Name="PDT_DEF_001T_1"   Label="Gestion des Gammes de Produit" />
+         <MenuItem Name="PDT_PAR_001T_21_32"   Label="Gestion des Classes de Portefeuille" />
+         <MenuItem Name="PDT_PAR_001T_21_213"   Label="Gestion des Niveaux d'Application de Regle" />
+         <MenuItem Name="PDT_PAR_001T_21_402"   Label="Gestion des Niveaux de Regles d'Adhesion" />
+         <MenuItem Name="PDT_PAR_001T_21_31"   Label="Gestion des Types d'Operateur" />
+         <MenuItem Name="PDT_DEF_003T_1"   Label="Gestion des Types de Regle d'Adhesion" />
+         <MenuItem Name="PDT_DEF_008T_2"   Label="Gestion des Produits (Cotisations)" />
+         <MenuItem Name="PRR_PDT_006T_1"   Label="Duplication de Produit" />
+      </Menu>
+      <Menu Name="PDT_TAR_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_39"   Label="Gestion des Etats de Tarif" />
+         <MenuItem Name="PDT_PAR_001T_21_27"   Label="Gestion des Genres de Critere" />
+         <MenuItem Name="PDT_PAR_001T_21_41"   Label="Gestion des Types de Composant de Tarif" />
+         <MenuItem Name="PDT_PAR_001T_21_42"   Label="Gestion des Types de Personne de Reference" />
+         <MenuItem Name="PDT_PAR_001T_21_40"   Label="Gestion des Types de Structure de Tarif" />
+         <MenuItem Name="PDT_PAR_001T_21_483"   Label="Gestion des Types de Tarification" />
+         <MenuItem Name="PDT_PAR_001T_21_221"   Label="Gestion du Tri de la Compo. Familiale" />
+         <MenuItem Name="PDT_PAR_001T_21_305"   Label="Gestion des Niveaux d'application des Remises" />
+         <MenuItem Name="PDT_PAR_001T_21_293"   Label="Gestion des Niveaux d'application des Taxes" />
+         <MenuItem Name="PDT_PAR_001T_21_303"   Label="Gestion des Types de Duplication de Tarif" />
+         <MenuItem Name="PDT_PAR_001T_21_302"   Label="Gestion des Etats de Renouvellements" />
+         <MenuItem Name="PDT_PAR_001T_21_301"   Label="Gestion des Types de Calcul de Renouvellement" />
+         <MenuItem Name="PDT_PAR_001T_21_548"   Label="Gestion des Types d'Arrondi de Tarif" />
+         <MenuItem Name="PDT_PAR_001T_21_563"   Label="Gestion des Types d'Arrondi de Composant" />
+         <MenuItem Name="PDT_TAR_008T_1"   Enabled="true" Label="Gestion des Types de Categorie de Tarif" />
+         <MenuItem Name="PDT_TAR_001T_1"   Label="Gestion des Structures Familiales" />
+         <MenuItem Name="PDT_TAR_002T_1"   Label="Gestion des Criteres" />
+         <MenuItem Name="PDT_TAR_022T_1"   Label="Gestion des Criteres Combines" />
+         <MenuItem Name="PDT_TAR_015T_1"   Label="Gestion des Remises" />
+         <MenuItem Name="PDT_TAR_009T_1"   Label="Gestion des Taxes" />
+         <MenuItem Name="PDT_TAR_003T_1"   Label="Gestion des Types de Variation" />
+         <MenuItem Name="PDT_TAR_004T_1"   Label="Gestion des Grilles de Tarif" />
+         <MenuItem Name="PDT_TAR_025T_1"   Label="Gestion des Types de Variations Combinees" />
+         <MenuItem Name="PDT_TAR_005T_2"   Label="Gestion des Regles de Variation (Cotisations)" />
+         <MenuItem Name="PDT_TAR_018T_1"   Label="Gestion des Montants Deduction Credit d'Impots" />
+         <MenuItem Name="PDT_TAR_007T_1"   Label="Gestion de la Duplication de Tarifs" />
+         <MenuItem Name="PDT_TAR_007T_2"   Label="Selection des Renouvellements" />
+         <MenuItem Name="PDT_TAR_007T_3"  Label="Selection des renouvellements individuels" />
+         <MenuItem Name="PDT_TAR_017T_1"   Label="Saisie de Masse des Retours de Renouvellements" />
+         <MenuItem Name="PDT_TAR_023T_1"   Label="Gestion des Taxes SUADEO" />
+         <MenuItem Name="PDT_TAR_024T_1"   Label="Gestion des Taxes par produit SUADEO" />
+      </Menu>
+      <Menu Name="PDT_DUP_SFD_MENU" >
+         <MenuItem Name="PDT_DUP_001T_1"   Label="Parametrage des Environnements a Dupliquer" />
+         <MenuItem Name="PDT_DUP_002T_1"   Label="Gestion des Objets a Dupliquer" />
+         <MenuItem Name="PDT_DUP_003T_1"   Label="Duplication du Parametrage Produit" />
+      </Menu>
+      <Menu Name="PRESTATIONS_MENU" >
+         <MenuItem Name="PRS_REF"  Label="Referentiel" SubMenuName="PRS_REF_MENU" />
+         <MenuItem Name="PRS_LIQ"  Label="Liquidation" SubMenuName="PRS_LIQ_MENU" />
+         <MenuItem Name="PRS_SUB"  Label="Subsistance" SubMenuName="PRS_SUB_MENU" />
+         <MenuItem Name="PRS_DEM"  Label="Demandes" SubMenuName="PRS_DEM_MENU" />
+      </Menu>
+      <Menu Name="PRS_REF_MENU" >
+         <MenuItem Name="ACTES"  Label="Actes" SubMenuName="ACTES_MENU" />
+         <MenuItem Name="PATHOLOGIES"  Label="Pathologies" SubMenuName="PATHOLOGIES_MENU" />
+         <MenuItem Name="REMBOURSEMENTS"  Label="Remboursements" SubMenuName="REMBOURSEMENTS_MENU" />
+         <MenuItem Name="LIMITES"  Label="Limites et Franchises" SubMenuName="LIMITES_MENU" />
+         <MenuItem Name="PS"  Label="Professionnels de Sante" SubMenuName="PS_MENU" />
+         <MenuItem Name="LIQUIDATION"  Label="Liquidation" SubMenuName="REF_LIQUID_MENU" />
+         <MenuItem Name="LIQUIDATION_MANUELLE"  Label="Liquidation Manuelle" SubMenuName="REF_LIQUID_MAN_MENU" />
+         <MenuItem Name="LIQUIDATION_AUTO"  Label="Liquidation Automatique" SubMenuName="REF_LIQ_AUTO_MENU" />
+         <MenuItem Name="SUBSISTANTS"  Label="Subsistants" SubMenuName="REF_SUBSISTANTS_MENU" />
+         <MenuItem Name="BAREME"  Label="Baremes" SubMenuName="REF_BAREME_MENU" />
+         <MenuItem Name="TRANSMISSION_GIES_VIAMEDIS"  Label="Garanties Viamedis" SubMenuName="REF_TRANS_GIES_VIAMEDIS" />
+         <MenuItem Name="ORDONNANCES"  Label="Ordonnances" SubMenuName="REF_ORDONNANCES" />
+         <MenuItem Name="DEMANDES"  Label="Demandes" SubMenuName="REF_DEMANDES" />
+         <MenuItem Name="DECOMPTE"  Label="Decomptes Externes" SubMenuName="REF_DECOMPTE" />
+         <MenuItem Name="PARCOURS_SOINS"  Label="Parcours de Soins" SubMenuName="REF_PARCOURS_SOINS" />
+      </Menu>
+      <Menu Name="ACTES_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_1"   Label="Gestion des Complements d'Acte" />
+         <MenuItem Name="PRR_ACT_007T_1"   Label="Gestion des Zones de Tarif" />
+         <MenuItem Name="PRR_ACT_014T_1"   Label="Gestion des Types de Conventionnement" />
+         <MenuItem Name="PRR_ACT_008T_1"   Label="Gestion des Types DOM TOM" />
+         <MenuItem Name="PRR_ACT_003T_1"   Label="Gestion des Types de Domaine" />
+         <MenuItem Name="PRR_ACT_010T_1"   Label="Gestion des Domaines" />
+         <MenuItem Name="PRR_ACT_001T_1"   Label="Gestion des Types de Groupes d'Acte" />
+         <MenuItem Name="PRR_ACT_002T_1"   Label="Gestion des Groupes d'Acte" />
+         <MenuItem Name="PRR_ACT_029T_1"   Label="Gestion des Equipements" />
+         <MenuItem Name="PDT_PAR_001T_21_291"   Label="Gestion des Actes FAR" />
+         <MenuItem Name="PDT_PAR_001T_21_346"   Label="Gestion des Secteurs de Conventionnement FAR" />
+         <MenuItem Name="PRR_ACT_015T_1"   Label="Gestion Correspondance des Secteurs de Conv. FAR" />
+         <MenuItem Name="PDT_PAR_001T_21_480"   Label="Gestion des Domaines Court Sejour FAR" />
+         <MenuItem Name="PRR_ACT_021T_1"   Label="Gestion Correspond. des Domaines Court Sejour FAR" />
+         <MenuItem Name="PRR_DIV_031T_1"   Label="Gestion des Types de Forfait PFS" />
+         <MenuItem Name="PRR_DIV_032T_1"   Label="Gestion des Types de Prestations PFS" />
+         <MenuItem Name="PDT_PAR_001T_21_348"   Label="Gestion des Types de Criteres d'Actes" />
+         <MenuItem Name="PDT_PAR_001T_21_347"   Label="Gestion des Formats de Criteres d'Actes" />
+         <MenuItem Name="PRR_ACT_016T_1"   Label="Gestion des Criteres d'Actes" />
+         <MenuItem Name="PRR_ACT_018T_1"   Label="Gestion des Groupes de Valeurs de Criteres d'Actes" />
+         <MenuItem Name="PRR_ACT_017T_1"   Label="Gestion des Criteres par Gamme Produit/Groupe Acte" />
+         <MenuItem Name="PRR_ACT_019T_1"   Label="Gestion des Ensembles de Criteres d'Actes" />
+         <MenuItem Name="PDT_PAR_001T_21_511"   Label="Gestion des niveaux de justificatif de liquidation" />
+         <MenuItem Name="PRR_ACT_023T_1"   Label="Gestion des Types de Justificatifs" />
+         <MenuItem Name="PDT_PAR_001T_21_400"   Label="Gestion des Types de Controle de Justificatifs" />
+         <MenuItem Name="PRR_ACT_020T_1"   Label="Gestion des Regles de Controle de Justificatifs" />
+         <MenuItem Name="PRR_ACT_022T_1"   Label="Gestion des Types d'Acte RO" />
+         <MenuItem Name="PRR_ACT_030T_1"  Label="Gestion des Niveaux d'Acte" />
+         <MenuItem Name="PRR_ACT_024T_1"   Label="Gestion des Groupes Homogenes de Diagnostic" />
+         <MenuItem Name="PRR_ACT_026T_1"  Label="Integration des Actes - Valeur par Defaut" />
+         <MenuItem Name="PRR_ACT_027T_1"  Label="Integration des Actes - Groupes Actes" />
+         <MenuItem Name="PRR_ACT_028T_1"  Label="Integration des Actes - Types de Liquidation" />
+         <MenuItem Name="PRR_ACT_005T_1"   Label="Gestion des Actes RC" />
+         <MenuItem Name="PRR_ACT_006T_1"   Label="Gestion des Actes RO" />
+      </Menu>
+      <Menu Name="PATHOLOGIES_MENU" >
+         <MenuItem Name="PRR_PAT_001T_1"   Label="Gestion des Types de Groupe de Pathologie" />
+         <MenuItem Name="PDT_PAR_001T_21_486"   Label="Gestion des Niveaux Application Regles Exclusion" />
+         <MenuItem Name="PDT_PAR_001T_21_510"   Label="Gestion des Types de Lien de Pathologie" />
+         <MenuItem Name="PRR_PAT_006T_1"   Label="Gestion des Pathologies" />
+         <MenuItem Name="PRR_PAT_002T_1"   Label="Gestion des Groupes de Pathologie" />
+         <MenuItem Name="PRR_PAT_005T_2"   Label="Val. Med. Conseil Combinaisons ACTE/PATHO" />
+         <MenuItem Name="PRR_PAT_005T_1"   Label="Exclusions de Combinaisons ACTE/PATHO" />
+         <MenuItem Name="PRR_PAT_003T_1"   Label="Gestion des Groupes de Regle d'Exclusion" />
+      </Menu>
+      <Menu Name="REMBOURSEMENTS_MENU" >
+         <MenuItem Name="PRR_RBT_010T_1"   Label="Gestion des Natures d'Assurance" />
+         <MenuItem Name="PDT_PAR_001T_21_72"   Label="Gestion des Types de Remboursement" />
+         <MenuItem Name="PDT_PAR_001T_21_37"   Label="Gestion des Types de Forfait" />
+         <MenuItem Name="PRR_RBT_001T_1"   Label="Gestion des Types de Message" />
+         <MenuItem Name="PRR_RBT_002T_1"   Label="Gestion des Messages" />
+         <MenuItem Name="PRR_RBT_003T_1"   Label="Gestion des Plafonds" />
+         <MenuItem Name="PRR_RBT_004T_1"   Label="Gestion des Planchers" />
+         <MenuItem Name="PRR_RBT_020T_1"   Label="Gestion des Cumuls de Groupes Parts de Remb." />
+         <MenuItem Name="PRR_RBT_005T_1"   Label="Gestion des Parts de Remboursement" />
+         <MenuItem Name="PRR_RBT_006T_1"   Label="Gestion des Groupes Part de Remb." />
+         <MenuItem Name="PRR_RBT_017T_1"   Label="Gestion des Tops de Prevention" />
+         <MenuItem Name="PRR_RBT_022T_1"   Label="Gestion des Indicateurs de Parcours de Soins" />
+         <MenuItem Name="PDT_PAR_001T_21_333"   Label="Gestion des Origines de Prescription" />
+         <MenuItem Name="PRR_RBT_015T_1"   Label="Gestion des Groupes d'Indic. Parcours de Soins" />
+         <MenuItem Name="PRR_RBT_016T_1"   Label="Gestion des Groupes d'Origines de Prescription" />
+         <MenuItem Name="PRR_RBT_021T_1"   Label="Gestion des Regles du Parcours de Soins" />
+         <MenuItem Name="PDT_PAR_001T_21_560"   Label="Gestion des Statuts de Parcours de Soins" />
+         <MenuItem Name="PRR_RBT_019T_1"   Label="Gestion des Types de Reseau de Soins" />
+         <MenuItem Name="PRR_RBT_007T_1"   Label="Gestion des Remboursements" />
+         <MenuItem Name="PRR_RBT_008T_1"   Label="Gestion des Formules" />
+         <MenuItem Name="PRR_RBT_018T_1"   Label="Gestion des Groupes de Grands Regimes" />
+         <MenuItem Name="PDT_TAR_005T_1"   Label="Gestion des Regles de Variation" />
+         <MenuItem Name="PRR_RBT_009T_1"   Label="Gestion des Remboursements d'Acte" />
+         <MenuItem Name="PRR_PDT_005T_1"   Label="Duplication Parametrage Remb Garantie" />
+         <MenuItem Name="PRR_ACT_009T_1"   Label="Duplication Parametrage Remb d'Acte" />
+      </Menu>
+      <Menu Name="LIMITES_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_117"   Label="Gestion des Types de Periode" />
+         <MenuItem Name="PDT_PAR_001T_21_116"   Label="Gestion des Portees Limite" />
+         <MenuItem Name="PRR_LIM_001T_1"   Label="Gestion des Dates Ref. de Limite" />
+         <MenuItem Name="PDT_PAR_001T_21_202"   Label="Gestion des Degre D'appli Limite" />
+         <MenuItem Name="PRR_LIM_003T_1"   Label="Gestion des Limites" />
+         <MenuItem Name="PRR_LIM_003T_2"   Label="Gestion des Franchises" />
+         <MenuItem Name="PRR_LIM_002T_1"   Label="Gestion Regles de Var. de Limite" />
+         <MenuItem Name="PRR_LIM_002T_2"   Label="Gestion Regles de Var. de Franchise" />
+         <MenuItem Name="PRR_LIM_004T_1"   Label="Gestion des Derogations" />
+         <MenuItem Name="PRR_LIM_005T_1"   Label="Gestion des Groupes de Derogation" />
+      </Menu>
+      <Menu Name="PS_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_144"   Label="Gestion des Modes de Traitement" />
+         <MenuItem Name="PDT_PAR_001T_21_4"   Label="Modes de Fixation des Tarifs" />
+         <MenuItem Name="PRR_PTS_003T_1"   Label="Gestion des Specialites" />
+         <MenuItem Name="PDT_PAR_001T_21_7"   Label="Gestion des Secteurs" />
+         <MenuItem Name="PDT_PAR_001T_21_8"   Label="Gestion des Qualites PS" />
+         <MenuItem Name="PRR_PTS_007T_1"   Label="Gestion des Qualificatifs Depense" />
+         <MenuItem Name="PRR_PTS_001T_1"   Label="Gestion des Statuts Juridiques" />
+         <MenuItem Name="PRR_PTS_002T_1"   Label="Gestion des Categories d'Etab" />
+         <MenuItem Name="PRR_PTS_004T_1"   Label="Gestion des Signalements" />
+         <MenuItem Name="PRR_PTS_011T_1"   Label="Gestion Disciplines Medico-Tarifaire" />
+         <MenuItem Name="PRR_PTS_009T_1"   Label="Gestion des Rubriques Bloc Note" />
+         <MenuItem Name="PRR_PTS_024T_1"   Label="Gestion des Types de Centre de Gestion" />
+         <MenuItem Name="PRR_PTS_019T_1"   Label="Gestion des Centres de Gestion TP" />
+         <MenuItem Name="PRR_PTS_025T_1"   Label="Parametrage de l'Integration des PS" />
+         <MenuItem Name="PDT_PAR_001T_21_477"   Label="Gestion des Types de Demandes Tiers Payant" />
+         <MenuItem Name="PRR_PTS_029T_1"   Label="Gestion des Activites du Contrat ROC" />
+         <MenuItem Name="PRR_PTS_016T_1"   Label="Gestion des Types d'Acteurs de Convention" />
+         <MenuItem Name="PRR_PTS_015T_1"   Label="Gestion des Types de Convention" />
+         <MenuItem Name="PRR_PTS_012T_1"   Label="Gestion des Etats de Convention" />
+         <MenuItem Name="PRR_PTS_013T_1"   Label="Gestion des Conventions TP" />
+         <MenuItem Name="PRR_PTS_017T_1"   Label="Gestion des Conventions Tarifs" />
+         <MenuItem Name="PRR_PTS_014T_1"   Label="Gestion des Conventions Modalites De Paiement" />
+         <MenuItem Name="PRR_PTS_018T_1"   Label="Gestion des Conventions d'Edition" />
+         <MenuItem Name="PRR_PTS_027T_1"   Label="Gestion des Options Conventionnelles" />
+         <MenuItem Name="PRR_PTS_026T_1"   Label="Gestion des Panels de Soins" />
+         <MenuItem Name="PRR_PTS_021T_1"   Label="Gestion des Conventions de Tarif d'Acte" />
+         <MenuItem Name="PRR_PTS_022T_1"   Label="Gestion des Groupes d'Executant" />
+         <MenuItem Name="PRR_PTS_023T_1"   Label="Gestion des Reseaux de Soins" />
+         <MenuItem Name="PRR_PTS_008T_1"   Label="Gestion des Contrats MR" />
+         <MenuItem Name="PDT_PAR_001T_21_121"   Label="Gestion des Types de Destinataire Part RC MR" />
+         <MenuItem Name="PDT_PAR_001T_21_122"   Label="Gestion des Motifs d'Interruption MR" />
+         <MenuItem Name="PRR_PTS_005T_1"   Label="Gestion des Etablissements" />
+         <MenuItem Name="PRR_PTS_006T_1"   Label="Gestion des Professionnels de Sante" />
+      </Menu>
+      <Menu Name="REF_LIQUID_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_128"   Label="Gestion des Natures de Decompte" />
+         <MenuItem Name="PDT_PAR_001T_21_146"   Label="Gestion des Natures de Dossiers" />
+         <MenuItem Name="PDT_PAR_001T_21_349"   Label="Gestion des Types de Dest. de Devis" />
+         <MenuItem Name="PRR_DIV_001T_1"   Label="Gestion des Types de Decompte" />
+         <MenuItem Name="PRR_DIV_042T_1"   Label="Gestion des Types de Liquidation" />
+         <MenuItem Name="PDT_PAR_001T_21_503"   Label="Gestion des Types de Dossiers Prestations" />
+         <MenuItem Name="PRR_DIV_038T_1"   Label="Gestion des Categories de PEC" />
+         <MenuItem Name="PDT_PAR_001T_21_501"   Label="Gestion des Types Retour Calcul Remboursement" />
+         <MenuItem Name="PRR_DIV_020T_1"   Label="Gestion Retours Calcul Remboursement" />
+         <MenuItem Name="PRR_DIV_021T_1"   Label="Gestion des Rejets de Ligne Acte" />
+         <MenuItem Name="PRR_DIV_022T_1"   Label="Gestion des Etats de Dossier" />
+         <MenuItem Name="PRR_DIV_024T_1"   Label="Gestion des Types de Forcage" />
+         <MenuItem Name="PRR_DIV_037T_1"   Label="Gestion des Correspondances d'Actes DATAWAREHOUSE" />
+         <MenuItem Name="PRR_DIV_036T_1"   Label="Gestion des Correspondance d'actes Double Paiement" />
+         <MenuItem Name="PRR_DIV_012T_1"   Label="Gestion des Criteres Double Paiement" />
+         <MenuItem Name="PRR_DIV_007T_1"   Label="Gestion Groupes Criteres Dbl Paiement" />
+         <MenuItem Name="PRR_DIV_041T_1"   Label="Gestion des Types de PEC" />
+         <MenuItem Name="PRR_DIV_028T_1"   Label="Gestion des Criteres de Rapprochement des PEC" />
+         <MenuItem Name="PRR_DIV_029T_1"   Label="Gestion Groupes Criteres de Rapprochement des PEC" />
+         <MenuItem Name="PDT_PAR_001T_21_509"   Label="Gestion des Typologies du Dossier de Soins" />
+         <MenuItem Name="PRR_DIV_010T_1"   Label="Gestion Regles Communes Liquidation" />
+         <MenuItem Name="PRR_DIV_025T_1"   Label="Gestion des Regles de Liquidation par Produit" />
+         <MenuItem Name="PRR_OPT_001T_1"  Label="Gestion du Besoin D'informations Optiques" />
+         <MenuItem Name="PRR_DIV_030T_1"   Label="Gestion des Types de Criteres de Scenarios" />
+         <MenuItem Name="PRR_DIV_039T_1"   Label="Gestion des Contextes Util. Scenario Liquidation" />
+         <MenuItem Name="PRR_DIV_040T_1"   Label="Gestion des Scenarios de Liquidation" />
+      </Menu>
+      <Menu Name="REF_LIQUID_MAN_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_125"   Label="Gestion des Types de Saisie LM" />
+         <MenuItem Name="PDT_PAR_001T_21_129"   Label="Gestion des Onglets LM" />
+         <MenuItem Name="PDT_PAR_001T_21_130"   Label="Gestion Types Tolerance Mtt Bordereau" />
+         <MenuItem Name="PDT_PAR_001T_21_131"   Label="Gestion Types Tolerance Mtt Dossier" />
+         <MenuItem Name="PRR_DIV_008T_1"   Label="Gestion Droits de LM par Role" />
+         <MenuItem Name="PRR_DIV_009T_1"   Label="Gestion Regles de Liquid Manuelle" />
+      </Menu>
+      <Menu Name="REF_LIQ_AUTO_MENU" >
+         <MenuItem Name="PRR_DIV_002T_1"   Label="Gestion Particularites Dossiers" />
+         <MenuItem Name="PDT_PAR_001T_21_147"   Label="Gestion Regles Repart. Depense LA" />
+         <MenuItem Name="PRR_DIV_003T_1"   Label="Gestion Fonctions Repart. Depense LA" />
+         <MenuItem Name="PDT_PAR_001T_21_148"   Label="Gestion Types Rech Benef LA" />
+         <MenuItem Name="PDT_PAR_001T_21_149"   Label="Gestion Criteres Doublons Benef LA" />
+         <MenuItem Name="PRR_DIV_034T_1"   Label="Gestion Tutelle LA" />
+         <MenuItem Name="PRR_DIV_035T_1"   Label="Gestion Requetes en LA" />
+         <MenuItem Name="PDT_PAR_001T_21_361"   Label="Gestion des Pieces Justificatives" />
+         <MenuItem Name="PRR_DIV_027T_1"   Label="Gestion des Indicateurs de Traitement" />
+         <MenuItem Name="PDT_PAR_001T_21_438"   Label="Gestion des Indicateurs de Forcage Facture" />
+         <MenuItem Name="PRR_DIV_033T_1"   Label="Gestion des Tops de Certification Lot" />
+         <MenuItem Name="PRR_DIV_014T_1"   Label="Gestion Correspondances Actes LA" />
+         <MenuItem Name="PRR_DIV_019T_1"   Label="Gestion Correspondances Terme LA" />
+         <MenuItem Name="PRR_DIV_011T_1"   Label="Gestion Regles de Liquidation Auto" />
+         <MenuItem Name="PRR_DIV_015T_1"   Label="Gestion Composition Lots Recyclage" />
+         <MenuItem Name="PRR_DIV_016T_1"   Label="Gestion Composition Lots Retour" />
+      </Menu>
+      <Menu Name="REF_SUBSISTANTS_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_158"   Label="Gestion Types Forfait Frais Sub" />
+         <MenuItem Name="PDT_PAR_001T_21_160"   Label="Gestion des Types de Date Reference" />
+         <MenuItem Name="PDT_PAR_001T_21_156"   Label="Gestion Portees Frais Fixes Sub" />
+         <MenuItem Name="PDT_PAR_001T_21_157"   Label="Gestion Types Convention Sub" />
+         <MenuItem Name="PDT_PAR_001T_21_161"   Label="Gestion Types Facture Sub" />
+         <MenuItem Name="PDT_PAR_001T_21_162"   Label="Gestion Modes Rglt Facture Sub" />
+      </Menu>
+      <Menu Name="REF_BAREME_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_313"   Label="Gestion des Garanties Commerciales" />
+         <MenuItem Name="PRR_BAR_001T_1"   Label="Gestion des Formats de Baremes" />
+         <MenuItem Name="PRR_BAR_007T_1"   Label="Gestion des Correspondances de Valeurs" />
+         <MenuItem Name="PRR_BAR_002T_1"   Label="Gestion des Modeles" />
+         <MenuItem Name="PRR_BAR_004T_1"   Label="Gestion des Modeles par Produit" />
+      </Menu>
+      <Menu Name="REF_TRANS_GIES_VIAMEDIS" >
+         <MenuItem Name="PDT_PAR_001T_21_435"   Label="Gestion des Types Actes TGV" />
+         <MenuItem Name="PDT_PAR_001T_21_436"   Label="Gestion des Natures Actes TGV" />
+         <MenuItem Name="PDT_PAR_001T_21_437"   Label="Gestion des Actes TGV" />
+         <MenuItem Name="PRR_TGV_001T_1"   Label="Correspondances Actes TGV" />
+         <MenuItem Name="PDT_PAR_001T_21_441"   Label="Familles TGV" />
+         <MenuItem Name="PRR_TGV_002T_1"   Label="Familles Actes TGV" />
+         <MenuItem Name="PDT_PAR_001T_21_439"   Label="Gestion des Formules TGV" />
+         <MenuItem Name="PDT_PAR_001T_21_440"   Label="Gestion des Parametres TGV" />
+         <MenuItem Name="PRR_TGV_003T_1"   Label="Formules Parametres TGV" />
+      </Menu>
+      <Menu Name="REF_ORDONNANCES" >
+         <MenuItem Name="PDT_PAR_001T_21_490"   Label="Gestion des Etats d'Ordonnance" />
+      </Menu>
+      <Menu Name="REF_DEMANDES" >
+         <MenuItem Name="PRR_DIV_043T_1"  Label="Gestion des Types de Demande" />
+         <MenuItem Name="PRR_DIV_044T_1"  Label="Gestion des Etats de Demande" />
+         <MenuItem Name="PRR_DIV_045T_1"  Label="Gestion des Motifs de Reclamation" />
+         <MenuItem Name="PDT_PAR_001T_21_518"  Label="Gestion des Motifs d'Abandon" />
+      </Menu>
+      <Menu Name="REF_DECOMPTE" >
+         <MenuItem Name="PRR_DIV_046T_1"   Label="Gestion des Codes de Validation" />
+      </Menu>
+      <Menu Name="REF_PARCOURS_SOINS" >
+         <MenuItem Name="PDT_PAR_001T_21_559"   Label="Gestion des Types de Feuilles de Soins" />
+      </Menu>
+      <Menu Name="PRS_LIQ_MENU" >
+         <MenuItem Name="PRL_MAN_056T_1"   Label="Gestion des Dossiers de Soins" />
+         <MenuItem Name="PRL_MAN_003T_1"   Label="Liquidation des Prestations" />
+         <MenuItem Name="PRL_MAN_002T_1"   Label="Gestion des Actes non Liquides" />
+         <MenuItem Name="PRL_MAN_008T_1"   Label="Gestion des Fiches Dentaires" CommandType="PL/SQL" />
+         <MenuItem Name="PRL_MAN_022T_1"   Label="Changement de Tiers Bordereau TP" />
+         <MenuItem Name="PRL_MAN_023T_2"   Label="Test de Simulation de Remboursement" />
+         <MenuItem Name="PRL_MAN_023T_1"   Label="Simulation de Remboursement" CommandType="PL/SQL" />
+         <MenuItem Name="PRL_MAN_038T_1"   Label="Annulation d'un Paiement PS ou Etab." />
+         <MenuItem Name="PRL_MAN_039T_1"   Label="Passage d'un Dossier Maladie a l'Etat Supprime" />
+         <MenuItem Name="PRL_MAN_007T_1"   Label="Consultation des Dossiers Maladie" CommandType="PL/SQL" />
+         <MenuItem Name="PRL_MAN_051T_1"   Label="Consultations des Dossiers Maladie Anterieurs" />
+         <MenuItem Name="PRL_MAN_065T_1"   Label="Consultations des Dossiers Anterieurs" />
+         <MenuItem Name="PRL_MAN_007T_2"   Label="Consultation des Devis" CommandType="PL/SQL" />
+         <MenuItem Name="PRL_MAN_007T_3"   Label="Consultation des Cotations" />
+         <MenuItem Name="PRL_MAN_026T_1"   Label="Consultation des FSE recues" CommandType="PL/SQL" />
+         <MenuItem Name="PRL_MAN_055T_1"   Label="Gestion du Dossier Medical" CommandType="PL/SQL" />
+         <MenuItem Name="PRL_MAN_011T_1"   Label="Consultation des Consommations de Limites" />
+         <MenuItem Name="PRL_MAN_011T_2"   Label="Consultation des Consommations de Franchises" />
+         <MenuItem Name="PRL_MAN_054T_1"   Label="Validation Manuelle des Prises en Charges" />
+         <MenuItem Name="PRL_MAN_054T_2"   Label="Validation Manuelle des PEC detaillees" />
+         <MenuItem Name="PRL_MAN_062T_1"   Label="Modif. Demande Contre Visite d'une PEC detaillee" />
+         <MenuItem Name="PRL_MAN_020T_1"   Label="Execution des Devis" CommandType="PL/SQL" />
+         <MenuItem Name="PRL_MAN_049T_1"   Label="Execution des Cotations" />
+         <MenuItem Name="PRL_MAN_050T_1"   Label="Consultation Fichiers Teletransmission" />
+         <MenuItem Name="PRL_MAN_009T_1"   Label="Consultation Lots Teletransmission" />
+         <MenuItem Name="PRL_MAN_010T_1"   Label="Consultation Suivi Lots Teletrans" />
+         <MenuItem Name="PRL_MAN_037T_1"   Label="Dossiers Proc A Mtt Liquide Errone" />
+         <MenuItem Name="PRL_AUT_008T_1"   Label="Rejet en Masse de Factures" />
+         <MenuItem Name="PRL_MAN_059T_1"  Label="Consultation des Demandes de Droits" />
+         <MenuItem Name="PRL_MAN_060T_1"  Label="Suivi des Decomptes Externes en Rejet" />
+         <MenuItem Name="PRL_MAN_061T_1"  Label="Consultation des Decomptes Externes" />
+         <MenuItem Name="PRL_MAN_066T_1"   Label="Suivi des Decomptes Payes avec Refus" />
+         <MenuItem Name="PRL_MAN_063T_1"   Label="Consultation des Fichiers FAC" />
+         <MenuItem Name="PRL_MAN_064T_1"   Label="Consultation Dossiers en Attente Fichier FAC" />
+      </Menu>
+      <Menu Name="PRS_SUB_MENU" >
+         <MenuItem Name="PRL_MAN_004T_1"   Label="Gestion des Subsistants" />
+         <MenuItem Name="PRL_MAN_019T_1"   Label="Generation Factures Frais Fixes Sub" />
+         <MenuItem Name="PRL_MAN_019T_2"   Label="Generation Factures Frais Variables Sub" />
+         <MenuItem Name="PRL_MAN_013E_1"   Label="Editions Factures Frais Fixes Sub" />
+         <MenuItem Name="PRL_MAN_014E_1"   Label="Edition Factures Frais Variables Sub" />
+         <MenuItem Name="PRL_MAN_012T_1"   Label="Gestion des Recettes Subsistant : Prests et Frais" />
+         <MenuItem Name="PRL_MAN_012T_2"   Label="Gestion des Recettes Subsistant : Prestations" />
+         <MenuItem Name="PRL_MAN_012T_3"   Label="Gestion des Recettes Subsistant : Frais" />
+         <MenuItem Name="PRL_MAN_015T_1"   Label="Consultation des Factures Subsistant" />
+         <MenuItem Name="PRL_MAN_015T_2"   Label="Solde des Factures Subsistant" />
+         <MenuItem Name="PRL_MAN_025T_1"   Label="Gestion Recettes Sub Hors Fact" />
+         <MenuItem Name="PRL_MAN_019T_3"   Label="Generation des Fichiers de Prestations Subsistants" />
+      </Menu>
+      <Menu Name="PRS_DEM_MENU" >
+         <MenuItem Name="PRL_MAN_057T_1"  Label="Reception des Demandes" />
+         <MenuItem Name="PRL_MAN_058T_1"  Label="Suivi des Demandes" />
+      </Menu>
+      <Menu Name="POP_SFG_MENU" >
+         <MenuItem Name="POP_REF_SFD"  Label="Referentiel" SubMenuName="POP_REF_SFD_MENU" />
+         <MenuItem Name="POP_ADR_SFD"  Label="Adresse" SubMenuName="POP_ADR_SFD_MENU" />
+         <MenuItem Name="POP_ACT_SFD"  Label="Acteur" SubMenuName="POP_ACT_SFD_MENU" />
+         <MenuItem Name="POP_COM_SFD"  Label="Commissionnement" SubMenuName="POP_COM_SFD_MENU" />
+         <MenuItem Name="POP_PER_SFD"  Label="Personne" SubMenuName="POP_PER_SFD_MENU" />
+         <MenuItem Name="POP_COL_SFD"  Label="Collectivite" SubMenuName="POP_COL_SFD_MENU" />
+         <MenuItem Name="POP_REC_SFD"  Label="Recherche" SubMenuName="POP_REC_SFD_MENU" />
+         <MenuItem Name="POP_SIP_SFD"  Label="SAS Integration" SubMenuName="POP_SIP_SFD_MENU" />
+      </Menu>
+      <Menu Name="POP_REF_SFD_MENU" >
+         <MenuItem Name="POP_REF_GEN"  Label="General" SubMenuName="POP_REF_GEN_MENU" />
+         <MenuItem Name="POP_REF_RO"  Label="Affiliation RO" SubMenuName="POP_REF_RO_MENU" />
+         <MenuItem Name="POP_REF_NOE"  Label="NOEMIE" SubMenuName="POP_REF_NOE_MENU" />
+         <MenuItem Name="POP_REF_PER"  Label="Personne" SubMenuName="POP_REF_PER_MENU" />
+         <MenuItem Name="POP_REF_COL"  Label="Collectivite" SubMenuName="POP_REF_COL_MENU" />
+         <MenuItem Name="POP_REF_CTRL"  Label="Controle Population" SubMenuName="POP_REF_CTRL_MENU" />
+         <MenuItem Name="POP_REF_NOR"  Label="Norme de Population" SubMenuName="POP_REF_NOR_MENU" />
+         <MenuItem Name="POP_REF_MEL"  Label="Gestion des Mails" SubMenuName="POP_REF_MEL_MENU" />
+         <MenuItem Name="POP_REF_SEPA"  Label="SEPA" SubMenuName="POP_REF_SEPA_MENU" />
+         <MenuItem Name="POP_REF_DSN"  Label="DSN" SubMenuName="POP_REF_DSN_MENU" />
+         <MenuItem Name="POP_REF_CONT"  Label="Controle" SubMenuName="POP_REF_CONT_MENU" />
+      </Menu>
+      <Menu Name="POP_REF_GEN_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_15"   Label="Gestion des Domaines d'Acteur" />
+         <MenuItem Name="PDT_PAR_001T_21_13"   Label="Gestion des Genres d'Acteur" />
+         <MenuItem Name="POP_REF_002T_1"   Label="Gestion des Types d'Acteur" />
+         <MenuItem Name="POP_REF_007T_1"   Label="Gestion des Types d'Acteur Participant" />
+         <MenuItem Name="PDT_PAR_001T_21_223"   Label="Gestion des Scenarii d'Actions" />
+         <MenuItem Name="PDT_PAR_001T_21_186"   Label="Gestion des Types d'Action" />
+         <MenuItem Name="POP_REF_014T_1"   Label="Gestion des Actions" />
+         <MenuItem Name="PDT_PAR_001T_21_96"   Label="Gestion des Termes d'Appel" />
+         <MenuItem Name="POP_REF_009T_1"   Label="Gestion des Types de Gestion" />
+         <MenuItem Name="PDT_PAR_001T_21_95"   Label="Gestion des Classes de Motif de Radiation" />
+         <MenuItem Name="PDT_PAR_001T_21_93"   Label="Gestion des Concurrents" />
+         <MenuItem Name="PDT_PAR_001T_21_92"   Label="Gestion des Motifs d'Adhesion" />
+         <MenuItem Name="POP_REF_003T_1"   Label="Gestion des Motifs de Radiation" />
+         <MenuItem Name="PDT_PAR_001T_21_211"   Label="Gestion des Modes d'Edition Carte" />
+         <MenuItem Name="PDT_PAR_001T_21_196"   Label="Gestion des Types de Demande d'Edition Carte" />
+         <MenuItem Name="PDT_PAR_001T_21_201"   Label="Gestion des Modes de Blocage Prest." />
+         <MenuItem Name="PDT_PAR_001T_21_200"   Label="Gestion des Types de Blocage Prest." />
+         <MenuItem Name="POP_PER_009T_1"   Label="Gestion des Motifs de Blocage Prest." />
+         <MenuItem Name="POP_REF_064T_1"   Label="Gestion des Groupements Motifs Blocage  Prest." />
+         <MenuItem Name="PDT_PAR_001T_21_336"   Label="Gestion des Types de Portefeuille" />
+         <MenuItem Name="PDT_PAR_001T_21_335"   Label="Gestion des Types d'Infos de Portefeuille" />
+         <MenuItem Name="POP_REF_020T_1"   Label="Gestion du Parametrage des Portefeuilles" />
+         <MenuItem Name="PDT_DEF_015T_1"   Label="Gestion des Types de Groupements" />
+         <MenuItem Name="PDT_DEF_012T_1"   Label="Gestion des Groupements" />
+         <MenuItem Name="PDT_PAR_001T_21_523"   Label="Gestion des Natures de Documents d'Acteurs" />
+         <MenuItem Name="POP_REF_021T_1"   Label="Gestion des Types de Document d'Acteur" />
+         <MenuItem Name="POP_REF_057T_1"   Label="Gestion des Natures d'Identifiants Externes" />
+         <MenuItem Name="POP_REF_058T_1"   Label="Gestion des Types d'Identifiants Externes" />
+         <MenuItem Name="POP_REF_059T_1"   Label="Gestion Liens Types Acteurs/Identifiants Externes" />
+         <MenuItem Name="POP_REF_047T_1"   Label="Gestion des Types d'Edition" />
+      </Menu>
+      <Menu Name="POP_REF_RO_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_82"   Label="Gestion des Complements aux Grands Regimes" />
+         <MenuItem Name="PDT_PAR_001T_21_99"   Label="Gestion des Debuts de N? de Secu" />
+         <MenuItem Name="POP_REF_060T_1"   Label="Gestion des Statuts de N? de Secu" />
+         <MenuItem Name="PDT_PAR_001T_21_94"   Label="Gestion des Types de N? Secu" />
+         <MenuItem Name="POP_REF_004T_1"   Label="Gestion des Compatibilites Civilite, Secu et Sexe" />
+         <MenuItem Name="POP_REF_010T_1"   Label="Gestion des Grands Regimes" />
+         <MenuItem Name="POP_REF_015T_1"   Label="Gestion des Controles Secu" />
+         <MenuItem Name="POP_REF_011T_1"   Label="Gestion des Centres RO" />
+      </Menu>
+      <Menu Name="POP_REF_NOE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_230"   Label="Gestion des Fermetures NOEMIE" />
+         <MenuItem Name="PDT_PAR_001T_21_91"   Label="Gestion des Motifs de Refus de TELETRANS" />
+         <MenuItem Name="PDT_PAR_001T_21_174"   Label="Gestion des Natures de Mvt TELETRANS" />
+         <MenuItem Name="PDT_PAR_001T_21_85"   Label="Gestion des Origines d'Acquittement" />
+         <MenuItem Name="PDT_PAR_001T_21_187"   Label="Gestion des Types d'Ano Population NOEMIE" />
+         <MenuItem Name="PDT_PAR_001T_21_232"   Label="Gestion des Types de Constitution de Fichier" />
+         <MenuItem Name="PDT_PAR_001T_21_231"   Label="Gestion des Types de Lot NOEMIE" />
+         <MenuItem Name="PDT_PAR_001T_21_249"   Label="Gestion des Types de N? d'Emetteur" />
+         <MenuItem Name="PDT_PAR_001T_21_403"   Label="Gestion des Types Acteur  NOEMIE" />
+         <MenuItem Name="PDT_PAR_001T_21_404"   Label="Gestion des Dates de Debut Contrat NOEMIE" />
+         <MenuItem Name="PDT_PAR_001T_21_408"   Label="Gestion des Anomalies de Retour 929/932" />
+         <MenuItem Name="POP_REF_046T_1"   Label="Types de Courrier" />
+         <MenuItem Name="POP_REF_017T_1"   Label="Gestion des Evenements NOEMIE" />
+         <MenuItem Name="POP_REF_018T_1"   Label="Gestion des Types de Contrat Adherent" />
+         <MenuItem Name="POP_REF_019T_1"   Label="Gestion des Types d'Emetteur NOEMIE" />
+         <MenuItem Name="POP_REF_006T_1"   Label="Gestion des Types de Mouvement de Teletrans" />
+         <MenuItem Name="PDT_PAR_001T_21_555"   Label="Gestion des Actions Suite aux Retours 929/932" />
+         <MenuItem Name="POP_REF_005T_1"   Label="Gestion des Motifs de Retour 929/932" />
+         <MenuItem Name="POP_REF_063T_1"   Label="Gestion des Groupements des Motifs de Retour" />
+         <MenuItem Name="POP_REF_038T_1"   Label="Gestion des Termes par Norme" />
+         <MenuItem Name="POP_REF_039T_1"   Label="Gestion des Etats NOEMIE" />
+         <MenuItem Name="POP_REF_040T_1"   Label="Gestion des Enchainements de Mouvements" />
+         <MenuItem Name="POP_REF_048T_1"   Label="Parametrage des Changements de Centre RO" />
+         <MenuItem Name="POP_REF_037T_1"  MenuItemType="Plain"  Label="Gestion des Configurations NOEMIE" CommandType="PL/SQL" />
+         <MenuItem Name="POP_PER_006T_1"   Enabled="true" Label="Gestion des Demandes 932 de Population" />
+         <MenuItem Name="POP_PER_021T_1"   Enabled="true" Label="Gestion des Lots pour la Generation de Mvts" />
+         <MenuItem Name="POP_PER_021T_2"   Enabled="true" Label="Gestion des Lots pour la Constitution de Fichier" />
+         <MenuItem Name="POP_PER_021T_3"   Enabled="true" Label="Gestion des Lots pour le Differentiel de Pop." />
+      </Menu>
+      <Menu Name="POP_REF_PER_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_224"   Label="Gestion des Qualites pour Carte TP" />
+         <MenuItem Name="PDT_PAR_001T_21_367"   Label="Gestion des Qualites de Cartes Vitale" />
+         <MenuItem Name="PDT_PAR_001T_21_98"   Label="Gestion des Sexes" />
+         <MenuItem Name="POP_REF_062T_1"   Label="Gestion des Situations Familiales" />
+         <MenuItem Name="PDT_PAR_001T_21_401"   Label="Gestion des Types de Famille" />
+         <MenuItem Name="PDT_PAR_001T_21_84"   Label="Gestion des Types de Nom" />
+         <MenuItem Name="POP_REF_001T_1"   Label="Gestion des Qualites Civiles" />
+         <MenuItem Name="POP_REF_008T_1"   Label="Gestion des Civilites" CommandType="PL/SQL" />
+         <MenuItem Name="PDT_PAR_001T_21_87"   Label="Gestion des CSP" />
+         <MenuItem Name="PDT_PAR_001T_21_83"   Label="Gestion des Colleges" />
+         <MenuItem Name="PDT_PAR_001T_21_520"   Label="Gestion des Fonctions" />
+         <MenuItem Name="PDT_PAR_001T_21_243"   Label="Gestion des Professions" />
+         <MenuItem Name="PDT_PAR_001T_21_89"   Label="Gestion des Modes d'Expedition" />
+         <MenuItem Name="POP_PER_026T_1"   Label="Gestion des Motifs de Sensibilite" />
+         <MenuItem Name="POP_REF_061T_1"   Label="Gestion des Groupements de Motifs de Sensibilite" />
+         <MenuItem Name="PDT_PAR_001T_21_90"   Label="Gestion des Nationalites" />
+         <MenuItem Name="PDT_PAR_001T_21_88"   Label="Gestion des Statuts de Contrat" />
+         <MenuItem Name="PDT_PAR_001T_21_38"   Label="Gestion des Types d'Application de Droit" />
+         <MenuItem Name="POP_REF_055T_1"   Label="Gestion des Types de Liens entre personnes" />
+         <MenuItem Name="PDT_PAR_001T_21_81"   Label="Gestion des Statuts" />
+         <MenuItem Name="PDT_PAR_001T_21_214"   Enabled="true" Label="Gestion des Niveaux de Justificatifs" />
+         <MenuItem Name="POP_PER_014T_1"   Enabled="true" Label="Gestion des Justificatifs" />
+         <MenuItem Name="PDT_PAR_001T_21_215"   Enabled="true" Label="Gestion des Statuts Madelin" />
+         <MenuItem Name="PDT_PAR_001T_21_229"   Label="Gestion des Filtres de Suivi des Rgt Mutualistes" />
+         <MenuItem Name="PDT_PAR_001T_21_304"   Label="Gestion des Anomalies de Transfert de Produits" />
+         <MenuItem Name="PDT_PAR_001T_21_358"   Label="Gestion des Types d'Impact de Chgt de Destinataire" />
+         <MenuItem Name="PDT_PAR_001T_21_468"   Label="Gestion des Types de Campagnes" />
+      </Menu>
+      <Menu Name="POP_REF_COL_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_104"   Label="Gestion des Abreges de Collectivite" />
+         <MenuItem Name="PDT_PAR_001T_21_105"   Label="Gestion des Formes Juridiques" />
+         <MenuItem Name="PDT_PAR_001T_21_106"   Label="Gestion des NAF" />
+         <MenuItem Name="POP_REF_054T_1"   Label="Gestion des Listes des NAF" />
+         <MenuItem Name="PDT_PAR_001T_21_238"   Label="Gestion des Conventions Collectives" />
+         <MenuItem Name="VTE_REF_023T_1"   Label="Gestion des Listes de Conventions Collectives" />
+         <MenuItem Name="VTE_REF_010T_1"   Label="Gestion des Liens NAF / Convention Collective" />
+         <MenuItem Name="PDT_PAR_001T_21_154"   Label="Gestion des Types de Collectivite" />
+         <MenuItem Name="POP_COL_010T_1"   Label="Gestion des Niveaux de Collectivite" />
+         <MenuItem Name="PDT_DEF_001T_3"   Label="Gestion des Gammes de Collectivite" />
+         <MenuItem Name="PDT_PAR_001T_21_101"   Label="Gestion des Types d'Acteur Social" />
+         <MenuItem Name="PDT_PAR_001T_21_308"   Label="Gestion des Anomalies de Repercussion aux Salaries" />
+         <MenuItem Name="PDT_PAR_001T_21_300"   Label="Gestion des Genres de Contrat Collectif" />
+         <MenuItem Name="PDT_PAR_001T_21_152"   Label="Gestion des Tranches de Masse Salariale" />
+         <MenuItem Name="PDT_PAR_001T_21_330"   Label="Gestion des Types d'Application Portefeuille" />
+         <MenuItem Name="PDT_PAR_001T_21_331"   Label="Gestion des Types de Creation de Rattachement" />
+         <MenuItem Name="PDT_PAR_001T_21_107"   Label="Gestion des Types de Contrat Collectif" />
+         <MenuItem Name="PDT_PAR_001T_21_102"   Label="Gestion des Types de Destinataire de Carte" />
+         <MenuItem Name="PDT_PAR_001T_21_153"   Label="Gestion des Types de Reglement de Ctt Collectif" />
+         <MenuItem Name="POP_COL_009T_1"   Label="Gestion des Listes de Contrat de Collectivite" />
+         <MenuItem Name="POP_REF_036T_1"   Label="Gestion des Normes FAR" />
+         <MenuItem Name="PDT_PAR_001T_21_546"   Label="Gestion des Types d'Anomalies de Declaration" CommandType="PL/SQL" />
+         <MenuItem Name="PDT_PAR_001T_21_561"   Label="Gestion des Types de Signalements de Declaration" />
+         <MenuItem Name="PDT_PAR_001T_21_544"   Label="Gestion des Types d'Action de Declaration" CommandType="PL/SQL" />
+         <MenuItem Name="PDT_PAR_001T_21_550"   Label="Gestion des Dates de Reference" CommandType="PL/SQL" />
+         <MenuItem Name="POP_COL_014T_1"   Label="Gestion des Types de Mouvements de Declaration" CommandType="PL/SQL" />
+         <MenuItem Name="POP_COL_012T_1"   Label="Gestion des Types de Declarations de Salaire" CommandType="PL/SQL" />
+         <MenuItem Name="POP_COL_018T_1"   Label="Gestion des Types de Parts Declarations" CommandType="PL/SQL" />
+         <MenuItem Name="POP_REF_065T_1"   Label="Gestion des Ensembles d'Etablissement" />
+      </Menu>
+      <Menu Name="POP_REF_CTRL_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_314"   Label="Origines de controle d'acteur" />
+         <MenuItem Name="POP_REF_023T_1"   Label="Objets de controle" />
+         <MenuItem Name="POP_REF_042T_1"   Label="Types d'echantillon" />
+         <MenuItem Name="POP_REF_041T_1"   Label="Echantillons" />
+         <MenuItem Name="POP_REF_024T_1"   Label="Anomalies de controle" />
+         <MenuItem Name="POP_REF_025T_1"   Label="Lots de controle" />
+         <MenuItem Name="POP_REF_026T_1"   Label="Suivi des controles" />
+      </Menu>
+      <Menu Name="POP_REF_NOR_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_524"   Label="Gestion des Types de Normes Population" />
+         <MenuItem Name="PDT_PAR_001T_21_525"   Label="Gestion des Partenaires associes Norme Population" />
+         <MenuItem Name="PDT_PAR_001T_21_2"   Label="Gestion des Evenements de Norme de Population" />
+         <MenuItem Name="PDT_PAR_001T_21_528"   Label="Gestion des Mvts envoyes par la norme Pop XMP" />
+         <MenuItem Name="PDT_PAR_001T_21_3"   Label="Gestion des Types de Mouvement" />
+         <MenuItem Name="POP_COL_006T_1"   Label="Gestion des Normes de Population" />
+      </Menu>
+      <Menu Name="POP_REF_MEL_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_428"   Label="Gestion des Signataires de Mail" />
+         <MenuItem Name="PDT_PAR_001T_21_429"   Label="Gestion des Types d'Attachement a un Mail" />
+         <MenuItem Name="PDT_PAR_001T_21_427"   Label="Gestion des Types d'Expediteur de Mail" />
+         <MenuItem Name="POP_REF_045T_1"   Label="Gestion des Configurations de Mail" />
+         <MenuItem Name="POP_REF_044T_1"   Label="Gestion des Pieces Jointes de Mail" />
+      </Menu>
+      <Menu Name="POP_REF_SEPA_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_460"   Label="Gestion des Types d'Envoi de Message" />
+         <MenuItem Name="PDT_PAR_001T_21_459"   Label="Gestion des Motifs de Revocation de Mandat" />
+         <MenuItem Name="PDT_PAR_001T_21_463"   Label="Gestion des Origines de Message de Mandat" />
+         <MenuItem Name="PDT_PAR_001T_21_462"   Label="Gestion des Retours de Message de Mandat" />
+         <MenuItem Name="PDT_PAR_001T_21_458"   Label="Gestion des Statuts de Mandat" />
+         <MenuItem Name="PDT_PAR_001T_21_461"   Label="Gestion des Statuts de Message de Mandat" />
+         <MenuItem Name="PDT_PAR_001T_21_456"   Label="Gestion des Types de Mandat" />
+         <MenuItem Name="PDT_PAR_001T_21_457"   Label="Gestion des Types de Sequence Mandat" />
+         <MenuItem Name="POP_REF_050T_1"   Label="Gestion des Natures de Formulaire" />
+         <MenuItem Name="POP_REF_051T_1"   Label="Gestion des Messages de Mandat" />
+         <MenuItem Name="POP_REF_052T_1"  Label="Test interface SEPA" />
+      </Menu>
+      <Menu Name="POP_REF_DSN_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_537"   Label="Gestion des Types de Population" />
+         <MenuItem Name="PDT_PAR_001T_21_538"   Label="Gestion des Codes Options Produit" />
+         <MenuItem Name="PDT_PAR_001T_21_539"   Label="Gestion des Groupes Parametrage Contrats DSN" />
+         <MenuItem Name="PDT_PAR_001T_21_551"   Label="Gestion des Natures de Cotisations" />
+         <MenuItem Name="PDT_PAR_001T_21_552"   Label="Gestion des Types de Cotisations Etablissement" />
+         <MenuItem Name="PDT_PAR_001T_21_553"   Label="Gestion des Indicateurs de Changement" />
+         <MenuItem Name="PDT_PAR_001T_21_554"   Label="Gestion des Types des Elements de Calcul" />
+         <MenuItem Name="PDT_PAR_001T_21_556"   Label="Gestion des Actions pour un Evenement DSN" />
+         <MenuItem Name="PDT_PAR_001T_21_557"   Label="Gestion des Etats pour un Evenement DSN" />
+         <MenuItem Name="PDT_PAR_001T_21_558"   Label="Gestion des Types d'Anomalie pour un Evenement DSN" />
+         <MenuItem Name="PDT_PAR_001T_21_564"   Label="Gestion des Conditions Tarifaires DSN" />
+         <MenuItem Name="PDT_PAR_001T_21_562"   Label="Gestion des Codes Retour CRM" />
+         <MenuItem Name="POP_DSN_009T_1"   Label="Parametrage des Elements de Calcul Individuels" />
+         <MenuItem Name="POP_DSN_009T_2"   Label="Parametrage des Elements de Calcul Etablissements" />
+         <MenuItem Name="POP_DSN_010T_1"   Label="Gestion des Types d'Evenements DSN" />
+      </Menu>
+      <Menu Name="POP_REF_CONT_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_536"   Label="Gestion des Dates Ref. pour Cycle Relance Docs Att" />
+         <MenuItem Name="POP_CTL_004T_1"   Label="Gestion des Etas de Controle" />
+         <MenuItem Name="POP_CTL_005T_1"   Label="Gestion des Etas de Cycle de Relance Docs Att." />
+         <MenuItem Name="POP_REF_046T_1"   Label="Types de Courrier" />
+         <MenuItem Name="POP_CTL_001T_1"   Label="Parametrage des Controles" />
+      </Menu>
+      <Menu Name="POP_ADR_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_16"   Label="Gestion des Classes de Coordonnee" />
+         <MenuItem Name="PDT_PAR_001T_21_248"   Label="Gestion des Genres de Secteur" />
+         <MenuItem Name="PDT_PAR_001T_21_14"   Label="Gestion des Types d'Appellation de Voie" />
+         <MenuItem Name="PDT_PAR_001T_21_450"   Label="Gestion des Types de Codes Postaux" />
+         <MenuItem Name="POP_ADR_004T_1"   Label="Gestion des Types d'Adresse" />
+         <MenuItem Name="POP_ADR_001T_1"   Label="Gestion des Types de Coordonnee" />
+         <MenuItem Name="POP_ADR_023T_1"   Label="Gestion des Etats de Coordonnee" />
+         <MenuItem Name="POP_ADR_014T_1"   Label="Gestion des Controles de Coordonnee" />
+         <MenuItem Name="PDT_PAR_001T_21_455"   Label="Gestion des Types de Valeurs de Ctrl. de Coord." />
+         <MenuItem Name="POP_ADR_003T_1"   Label="Gestion des Secteurs" />
+         <MenuItem Name="PDT_PAR_001T_21_406"   Label="Gestion des Types de Sect. pour Adr. Non Normees" />
+         <MenuItem Name="POP_ADR_013T_1"   Label="Gestion des Categories de Secteur" />
+         <MenuItem Name="POP_ADR_002T_1"   Label="Gestion des Pays" />
+         <MenuItem Name="POP_ADR_009T_1"   Label="Gestion des Departements" />
+         <MenuItem Name="POP_ADR_017T_1"   Label="Gestion des Cantons" />
+         <MenuItem Name="POP_ADR_005T_1"   Label="Gestion des Localites" />
+         <MenuItem Name="POP_REF_053T_1"   Label="Gestion des Listes de Departements" />
+         <MenuItem Name="PDT_PAR_001T_21_24"   Label="Gestion des Classes de Motifs de Referentiel" />
+         <MenuItem Name="PDT_REF_007T_1"   Label="Gestion des Motifs de Blocage de Referentiel" />
+         <MenuItem Name="PDT_REF_008T_1"   Label="Gestion des Motifs d'Anomalie de Referentiel" />
+         <MenuItem Name="POP_ADR_NOR" MenuItemType="Plain"  Label="Normalisation d'Adresse" SubMenuName="POP_ADR_NOR_MENU" />
+         <MenuItem Name="PDT_PAR_001T_21_475"   Label="Gestion des zones de saisie d'adresse" />
+         <MenuItem Name="PDT_PAR_001T_21_476"   Label="Gestion des zones d'affichage d'adresse" />
+         <MenuItem Name="POP_ADR_024T_1"   Label="Gestion du Parametrage des Zones d'Adresse" />
+      </Menu>
+      <Menu Name="POP_ADR_NOR_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_373"   Label="Gestion des Types de Rejet de Normalisation" />
+         <MenuItem Name="POP_ADR_022T_1"   Label="Gestion des Motifs de Rejet de Normalisation" />
+         <MenuItem Name="POP_ADR_018T_1"   Label="Demande de Normalisation d'Adresse" />
+         <MenuItem Name="POP_ADR_019T_1"   Label="Recyclage des Normalisations d'Adresse" />
+      </Menu>
+      <Menu Name="POP_ACT_SFD_MENU" >
+         <MenuItem Name="POP_ACT_003T_1"   Label="Gestion des Commerciaux" />
+         <MenuItem Name="POP_ACT_011T_1"   Label="Gestion des Fonctions des Commerciaux" />
+         <MenuItem Name="PDT_PAR_001T_21_80"   Label="Gestion des Types d'Acteur Externe" />
+         <MenuItem Name="POP_ACT_004T_1"   Label="Gestion des Acteurs Externes" />
+      </Menu>
+      <Menu Name="POP_COM_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_352"   Label="Gestion des Portees de Transfert de Comm." />
+         <MenuItem Name="PDT_PAR_001T_21_353"   Label="Gestion des Types d'Apporteur d'Affaire" />
+         <MenuItem Name="PDT_PAR_001T_21_354"   Label="Gestion des Types d'Ano de Transfert de Comm." />
+         <MenuItem Name="PDT_PAR_001T_21_355"   Label="Gestion des Types de Commissionnement" />
+         <MenuItem Name="POP_REF_029T_1"   Label="Gestion des Types de Groupe d'Apporteur" />
+         <MenuItem Name="PDT_PAR_001T_21_451"   Label="Gestion des Modes de Calcul des Commissions" />
+         <MenuItem Name="PDT_PAR_001T_21_452"   Label="Gestion des Types de Paiement des Commissions" />
+         <MenuItem Name="PDT_PAR_001T_21_512"   Label="Gestion des Niveaux d'Avance" />
+         <MenuItem Name="POP_REF_032T_1"   Label="Gestion des Regles de Variation de Comm." />
+         <MenuItem Name="POP_REF_033T_1"   Label="Gestion des Types de Criteres de Comm." />
+         <MenuItem Name="POP_REF_030T_1"   Label="Gestion des Apporteurs d'Affaire" />
+         <MenuItem Name="POP_REF_031T_1"   Label="Gestion des Groupes d'Apporteur d'Affaire" />
+         <MenuItem Name="POP_REF_034T_1"   Label="Gestion des Conventions de Commissionnement" />
+         <MenuItem Name="POP_REF_035T_1"   Label="Gestion des Transferts de Conventions de Comm." />
+      </Menu>
+      <Menu Name="POP_PER_SFD_MENU" >
+         <MenuItem Name="POP_PER_001T_1"   Label="Gestion des Personnes" />
+         <MenuItem Name="POP_PER_001T_2"   Label="Gestion Partielle des Personnes" />
+         <MenuItem Name="POP_PER_002T_1"   Label="Gestion des Changements de Famille" />
+         <MenuItem Name="POP_PER_003T_1"   Enabled="true" Label="Gestion des Liens entre Famille" />
+         <MenuItem Name="POP_PER_013T_1"   Enabled="true" Label="Gestion des Appels Madelin" />
+         <MenuItem Name="POP_PER_016T_1"   Enabled="true" Label="Gestion des Campagnes de Justificatifs" />
+         <MenuItem Name="POP_PER_024T_3"   Enabled="true" Label="Suivi des Reglements Mutualistes" />
+         <MenuItem Name="PRL_MAN_055T_1"   Enabled="true" Label="Gestion du Dossier Medical" />
+         <MenuItem Name="POP_PER_030T_1"   Label="Gestion des Transferts de Produits" />
+         <MenuItem Name="POP_PER_039T_1"  Label="Gestion des Transferts de Criteres" />
+         <MenuItem Name="POP_PER_037T_1"   Label="Gestion du Suivi des Retours NOEMIE" />
+         <MenuItem Name="POP_REF_049T_1"   Label="Gestion des Mandats" />
+         <MenuItem Name="POP_PER_041T_1"   Label="Visualisation de l'Historique des Messages Mandat" />
+         <MenuItem Name="POP_PER_047T_1"   Label="Gestion des Demandes de Mutation" />
+      </Menu>
+      <Menu Name="POP_COL_SFD_MENU" >
+         <MenuItem Name="POP_COL_001T_1"   Label="Gestion des Collectivites" />
+         <MenuItem Name="POP_COL_001T_2"   Label="Gestion Partielle des Collectivites" />
+         <MenuItem Name="COT_RGT_027T_1"   Label="Gestion des Prelevements sur Salaire" />
+         <MenuItem Name="POP_DSN_001U_1"   Label="Acces a la Consultation DSN" />
+         <MenuItem Name="POP_DSN_008T_1"   Label="Donnees de la Fiche de Parametrage DSN" />
+         <MenuItem Name="POP_DSN_011T_1"   Label="Suivi des evenements DSN" />
+         <MenuItem Name="POP_COL_019T_1"   Label="Visualisation des Declarations de Salaire" />
+      </Menu>
+      <Menu Name="POP_REC_SFD_MENU" >
+         <MenuItem Name="POP_REC_GEN"  Label="Referentiel Generique" SubMenuName="POP_REC_GEN_MENU" />
+         <MenuItem Name="POP_REC_CLI"  Label="Parametrage Client" SubMenuName="POP_REC_CLI_MENU" />
+         <MenuItem Name="POP_REC_PRO"  Label="Parametrage PROTECTIA" SubMenuName="POP_REC_PRO_MENU" />
+      </Menu>
+      <Menu Name="POP_REC_GEN_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_75"   Label="Gestion des Niveaux de Recherche" />
+         <MenuItem Name="PDT_PAR_001T_21_76"   Label="Gestion des Operateurs de Recherche" />
+         <MenuItem Name="PDT_PAR_001T_21_77"   Label="Gestion des Regles de Recherche" />
+         <MenuItem Name="PDT_PAR_001T_21_78"   Label="Gestion des Sens de Tri" />
+         <MenuItem Name="PDT_PAR_001T_21_289"   Label="Gestion des Types de Fonction" />
+         <MenuItem Name="PDT_PAR_001T_21_103"   Label="Gestion des Types de Parametre de Fonction" />
+         <MenuItem Name="PDT_PAR_001T_21_374"   Label="Gestion des Types de Param. de Regle d'Affichage" />
+         <MenuItem Name="PDT_PAR_001T_21_97"   Label="Gestion des Types de Point d'Entree" />
+      </Menu>
+      <Menu Name="POP_REC_CLI_MENU" >
+         <MenuItem Name="POP_REC_001T_1"   Label="Visu des Types de Mode de Recherche" />
+         <MenuItem Name="POP_REC_020T_1"   Label="Gestion des Boutons de Recherche" />
+         <MenuItem Name="POP_REC_019T_1"   Label="Visu des Acteurs de Recherche" />
+         <MenuItem Name="POP_REC_002T_1"   Label="Visu des Tables de Recherche" />
+         <MenuItem Name="POP_REC_014T_1"   Label="Visu des Modes de Critere" />
+         <MenuItem Name="POP_REC_006T_1"   Label="Visu des Criteres de Recherche" />
+         <MenuItem Name="POP_REC_007T_1"   Label="Visu des Modes de Recherche" />
+         <MenuItem Name="POP_REC_009T_1"   Label="Visu des Modes de Resultat" />
+         <MenuItem Name="POP_REC_010T_1"   Label="Visu des Modes de Resume" />
+         <MenuItem Name="POP_REC_008T_1"   Label="Visu des Criteres de Resultat" />
+         <MenuItem Name="POP_REC_015T_1"   Label="Visu des Modes de Dedoublonnage" />
+         <MenuItem Name="POP_REC_017T_1"   Label="Visu des Configurations de Dedoublonnage" />
+         <MenuItem Name="POP_REC_018T_1"   Label="Visu des Regles d'Affichage" />
+         <MenuItem Name="POP_REC_013T_1"   Label="Visu des Constantes" />
+         <MenuItem Name="POP_REC_012T_1"   Enabled="true" Label="Visu des Fonctions de Resultat" />
+         <MenuItem Name="POP_REC_012T_3"   Enabled="true" Label="Visu des Fonctions de Dedoublonnage" />
+         <MenuItem Name="POP_REC_012T_5"   Label="Visu des Fonctions de Recherche" />
+         <MenuItem Name="POP_REC_003T_1"   Label="Visu du Parametrage de Recherche" />
+         <MenuItem Name="POP_REC_003T_5"   Label="Visu du Parametrage de Resumes" />
+         <MenuItem Name="POP_REC_004T_1"   Label="Visu des Points d'Entree de Recherche" />
+         <MenuItem Name="POP_REC_004T_5"   Label="Visu des Points d'Entree de Recherche MTA" />
+         <MenuItem Name="POP_REC_004T_3"   Label="Visu des Points d'Entree de Resume" />
+         <MenuItem Name="POP_REC_004T_7"   Label="Visu des Points d'Entree de Resume MTA" />
+         <MenuItem Name="POP_REC_016T_1"   Label="Visu du Parametrage de Dedoublonnage" />
+         <MenuItem Name="POP_REC_004T_9"   Label="Gestion des Points d'Entree de Dedoublonnage" />
+         <MenuItem Name="POP_REC_004T_11"   Label="Gestion des Points d'Embranchement de Dedoub." />
+         <MenuItem Name="POP_REC_011T_1"   Enabled="true" Label="Visu des Utilisations de Pt d'Entree" />
+      </Menu>
+      <Menu Name="POP_REC_PRO_MENU" >
+         <MenuItem Name="POP_REC_001T_2"   Label="Gestion des Types de Mode de Recherche" />
+         <MenuItem Name="POP_REC_020T_2"   Label="Gestion des Boutons de Recherche" />
+         <MenuItem Name="POP_REC_019T_2"   Label="Gestion des Acteurs de Recherche" />
+         <MenuItem Name="POP_REC_002T_2"   Label="Gestion des Tables de Recherche" />
+         <MenuItem Name="POP_REC_014T_2"   Label="Gestion des Modes de Critere" />
+         <MenuItem Name="POP_REC_006T_2"   Label="Gestion des Criteres de Recherche" />
+         <MenuItem Name="POP_REC_007T_2"   Label="Gestion des Modes de Recherche" />
+         <MenuItem Name="POP_REC_009T_2"   Label="Gestion des Modes de Resultat" />
+         <MenuItem Name="POP_REC_010T_2"   Label="Gestion des Modes de Resume" />
+         <MenuItem Name="POP_REC_008T_2"   Label="Gestion des Criteres de Resultat" />
+         <MenuItem Name="POP_REC_015T_2"   Label="Gestion des Modes de Dedoublonnage" />
+         <MenuItem Name="POP_REC_017T_2"   Label="Gestion des Configurations de Dedoublonnage" />
+         <MenuItem Name="POP_REC_018T_2"   Label="Gestion des Regles d'Affichage" />
+         <MenuItem Name="POP_REC_013T_2"   Enabled="true" Label="Gestion des Constantes" />
+         <MenuItem Name="POP_REC_012T_2"   Label="Gestion des Fonctions de Resultat" />
+         <MenuItem Name="POP_REC_012T_4"   Enabled="true" Label="Gestion des Fonctions de Dedoublonnage" />
+         <MenuItem Name="POP_REC_012T_6"   Label="Gestion des Fonctions de Recherche" />
+         <MenuItem Name="POP_REC_003T_2"   Label="Gestion du Parametrage de Recherche" />
+         <MenuItem Name="POP_REC_003T_6"   Label="Gestion du Parametrage de Resumes" />
+         <MenuItem Name="POP_REC_004T_2"   Label="Gestion des Points d'Entree de Recherche" />
+         <MenuItem Name="POP_REC_004T_6"   Label="Gestion des Points d'Embranchement de Recherche" />
+         <MenuItem Name="POP_REC_004T_4"   Label="Gestion des Points d'Entree de Resume" />
+         <MenuItem Name="POP_REC_004T_8"   Label="Gestion des Points d'Embranchement de Resume" />
+         <MenuItem Name="POP_REC_016T_2"   Label="Gestion du Parametrage de Dedoublonnage" />
+         <MenuItem Name="POP_REC_004T_10"   Label="Gestion des Points d'Entree de Dedoublonnage" />
+         <MenuItem Name="POP_REC_004T_12"   Label="Gestion des Points d'Embranchement de Dedoub." />
+         <MenuItem Name="POP_REC_011T_2"   Enabled="true" Label="Gestion des Utilisations de Pt d'Entree" />
+      </Menu>
+      <Menu Name="POP_SIP_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_328"   Label="Gestion des Acteurs Proteges du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_316"   Label="Gestion des Etats du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_324"   Label="Gestion des Motifs d'Abandon du SIP" />
+         <MenuItem Name="POP_SIP_010T_1"   Label="Gestion des Provenances du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_318"   Label="Gestion des Statuts du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_414"   Label="Gestion des Types de Groupement PreSip" />
+         <MenuItem Name="PDT_PAR_001T_21_319"   Label="Gestion des Types d'Information du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_320"   Label="Gestion des Types de Mouvement Brut du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_326"   Label="Gestion des Types de Pilotages du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_329"   Label="Gestion des Types de RIB du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_321"   Label="Gestion des Types de Traitement du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_322"   Label="Gestion des Types de Valeur du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_323"   Label="Gestion des Valeurs de Reference du SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_448"   Label="Gestion des Repercussions d'Adresses SIP" />
+         <MenuItem Name="PDT_PAR_001T_21_464"   Label="Gestion des Types d'Application du Mandat" />
+         <MenuItem Name="PDT_PAR_001T_21_527"   Label="Gestion de l'Identifiant de l'Acteur PRESIP" />
+         <MenuItem Name="PDT_PAR_001T_21_529"   Label="Gestion des Types de Creation de Droits de Ratt." />
+         <MenuItem Name="PDT_PAR_001T_21_535"   Label="Gestion des Types d'App. des Chgts. de Famille" />
+         <MenuItem Name="POP_SIP_001T_1"   Label="Gestion des Anomalies du SIP" />
+         <MenuItem Name="POP_SIP_002T_1"   Label="Gestion des Tables et des Colonnes du SIP" />
+         <MenuItem Name="POP_SIP_009T_1"   Label="Gestion des Types de Groupement SIP" />
+         <MenuItem Name="POP_SIP_003T_1"   Label="Gestion des Types de Mvt Brut du SIP" />
+         <MenuItem Name="POP_SIP_004T_1"   Label="Gestion des Mouvements Bruts a Valider" />
+         <MenuItem Name="POP_SIP_004T_2"   Label="Gestion des Mouvements Bruts a Integrer" />
+         <MenuItem Name="POP_SIP_004T_3"   Label="Gestion des Mouvements Bruts Integres" />
+         <MenuItem Name="POP_SIP_004T_4"   Label="Gestion des Mouvements Bruts en Anomalie" />
+         <MenuItem Name="POP_SIP_004T_5"   Label="Gestion des Mouvements Bruts Abandonnes" />
+         <MenuItem Name="POP_SIP_004T_6"   Label="Gestion des Mouvements Bruts par Statut" />
+         <MenuItem Name="POP_SIP_011T_1"   Label="Gestion des Mouvements PreSip par Statut" />
+      </Menu>
+      <Menu Name="COT_SFG_MENU" >
+         <MenuItem Name="COT_REF_SFD"  Label="Referentiel" SubMenuName="COT_REF_SFD_MENU" />
+         <MenuItem Name="COT_APP_SFD"  Label="Appel" SubMenuName="COT_APP_SFD_MENU" />
+         <MenuItem Name="COT_REG_SFD"  Label="Regul" SubMenuName="COT_REG_SFD_MENU" />
+         <MenuItem Name="COT_EDT_SFD"  Label="Editions" SubMenuName="COT_EDT_SFD_MENU" />
+         <MenuItem Name="COT_RGT_SFD"  Label="Reglement" SubMenuName="COT_RGT_SFD_MENU" />
+         <MenuItem Name="COT_RAP_SFD"  Label="Rappel" SubMenuName="COT_RAP_SFD_MENU" />
+         <MenuItem Name="HISTO"  Label="Histo" SubMenuName="MENU_HISTO" />
+      </Menu>
+      <Menu Name="COT_REF_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_290"   Label="Gestion des Dates de Reference Comptable" />
+         <MenuItem Name="COT_RGT_020T_1"   Label="Gestion des Types d'Operation" />
+         <MenuItem Name="COT_RGT_021T_1"   Label="Parametrage de la Date Comptable" />
+         <MenuItem Name="COT_RGT_018T_1"   Label="Gestion du Controle de la Date Comptable" />
+      </Menu>
+      <Menu Name="COT_APP_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_165"   Label="Gestion des Types d'Appel" />
+         <MenuItem Name="PDT_PAR_001T_21_166"   Label="Gestion des Statuts d'Appel" />
+         <MenuItem Name="PDT_PAR_001T_21_167"   Label="Gestion des Types de Periodes d'Appel" />
+         <MenuItem Name="PDT_PAR_001T_21_168"   Label="Gestion des Types de Rejets d'Appel" />
+         <MenuItem Name="PDT_PAR_001T_21_169"   Label="Gestion des Types de Lots d'Appel" />
+         <MenuItem Name="PDT_PAR_001T_21_312"   Label="Gestion des Filtres de Compte Rendu d'Appel" />
+         <MenuItem Name="PDT_PAR_001T_21_170"   Label="Gestion des Types d'Affichage des Participations" />
+         <MenuItem Name="PDT_PAR_001T_21_171"   Label="Gestion des Types d'Affichage du Detail" />
+         <MenuItem Name="PDT_PAR_001T_21_481"   Label="Gestion des Types de Tri du Compte Cotisant" />
+         <MenuItem Name="COT_APP_009T_1"   Label="Gestion des Motifs de Rejets d'Appel " />
+         <MenuItem Name="COT_APP_010T_1"   Label="Gestion des Postes de Ventilation" />
+         <MenuItem Name="COT_ECH_006T_1"   Label="Gestion des Decalages des Echeanciers" />
+         <MenuItem Name="COT_APP_001T_1"   Label="Gestion des Lots d'Appel de Cotisation" />
+         <MenuItem Name="COT_APP_002T_3"   Label="Gestion des Appels de Simulation" />
+         <MenuItem Name="COT_APP_008T_3"   Label="Suivi et Annulation d'Appel de Simulation" />
+         <MenuItem Name="COT_APP_002T_2"   Label="Gestion des Appels Contractuels" />
+         <MenuItem Name="COT_APP_008T_2"   Label="Suivi, Cloture et Annulation d'Appel Contractuel" />
+         <MenuItem Name="COT_APP_002T_1"   Label="Gestion des Appels de Cotisation" />
+         <MenuItem Name="COT_APP_008T_1"   Label="Suivi, Cloture et Annulation d'Appel" />
+         <MenuItem Name="COT_APP_005T_1"   Label="Lanceur de l'Edition de l'Appel de Cotisation" />
+      </Menu>
+      <Menu Name="COT_REG_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_142"   Label="Gestion des Signes de Regul." />
+         <MenuItem Name="PDT_PAR_001T_21_334"   Label="Gestion des Types d'Edition de Bordereau" />
+         <MenuItem Name="PDT_PAR_001T_21_139"   Label="Gestion des Types de Gestion de Regul." />
+         <MenuItem Name="PDT_PAR_001T_21_140"   Label="Gestion des Types de Pres. de Bordereau" />
+         <MenuItem Name="PDT_PAR_001T_21_141"   Label="Gestion des Types de Ventil. d'Echeancier" />
+         <MenuItem Name="PDT_PAR_001T_21_212"   Label="Gestion des Motifs de Regularisation" />
+         <MenuItem Name="PDT_PAR_001T_21_295"   Label="Gestion des Statuts de visu des regularisations" />
+         <MenuItem Name="PDT_PAR_001T_21_345"   Label="Gestion des Types d'Affichage des regularisations" />
+         <MenuItem Name="COT_REG_001T_1"  Label="Gestion des Regularisations" />
+         <MenuItem Name="COT_REG_001T_2"  Label="Validation des Regularisations" />
+      </Menu>
+      <Menu Name="COT_EDT_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_208"   Label="Gestion des Types d'utilisation des Lots d'Appel" />
+         <MenuItem Name="PDT_PAR_001T_21_196"   Label="Gestion des Types d'edition des Cartes TP" />
+         <MenuItem Name="PDT_PAR_001T_21_357"   Label="Gestion des Types de Parametres d'Extraction" />
+         <MenuItem Name="COT_EDT_005T_1"  Label="Parametrage des Extractions d'Edition" />
+         <MenuItem Name="COT_APP_005T_1"   Label="Demo Edition Appel Cotisation" />
+         <MenuItem Name="COT_APP_001T_2"   Label="Gestion des Lots d'Edition d'Appel de Cotisation" />
+         <MenuItem Name="COT_EDT_003T_1"   Label="Reedition des Factures Individuelles" />
+         <MenuItem Name="COT_EDT_003T_2"   Label="Reedition des Factures Collectivites" />
+         <MenuItem Name="COT_EDT_002T_3"   Label="Demande d'Edition de Carte a l'Appel" />
+         <MenuItem Name="COT_EDT_001T_1"   Label="Reedition des Cartes aux Personnes" />
+         <MenuItem Name="COT_EDT_001T_2"   Label="Reedition des Cartes aux Collectivites" />
+         <MenuItem Name="COT_EDT_023T_1"   Label="Gestion des Lots d'Edition de Cartes Specifiques" />
+         <MenuItem Name="COT_EDT_002T_1"   Label="Demande d'Edition Specifique de Carte Collectivite" />
+         <MenuItem Name="COT_EDT_002T_2"   Label="Demande d'Edition Specifique de Carte Individuelle" />
+         <MenuItem Name="COT_EDT_006T_1"   Label="Demande de Renouvellement de Cartes VITALE" />
+         <MenuItem Name="COT_EDT_006T_2"   Label="Demande de Relance de Cartes VITALE" />
+      </Menu>
+      <Menu Name="COT_RGT_SFD_MENU" >
+         <MenuItem Name="RGT_GENERAL"  Label="General" SubMenuName="COT_RGT_GEN_MENU" />
+         <MenuItem Name="RGT_MAN"  Label="Reglement Manuel" SubMenuName="COT_RGT_MAN_MENU" />
+         <MenuItem Name="RGT_PRL"  Label="Prelevement" SubMenuName="COT_RGT_PRL_MENU" />
+         <MenuItem Name="RGT_TIP"  Label="TIP" SubMenuName="COT_RGT_TIP_MENU" />
+         <MenuItem Name="RGT_TPC"  Label="Trop Percu" SubMenuName="COT_RGT_TPC_MENU" />
+         <MenuItem Name="RGT_OD"  Label="Operation Diverse" SubMenuName="COT_RGT_OD_MENU" />
+         <MenuItem Name="RGT_XML"  Label="Reglements XML" SubMenuName="COT_RGT_XML_MENU" />
+      </Menu>
+      <Menu Name="COT_RGT_GEN_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_192"   Label="Gestion des Etats de Reglement" />
+         <MenuItem Name="PDT_PAR_001T_21_188"   Label="Gestion des Signes de Reglement" />
+         <MenuItem Name="PDT_PAR_001T_21_189"   Label="Gestion des Types d'Ecriture" />
+         <MenuItem Name="PDT_PAR_001T_21_190"   Label="Gestion des Types de Piece" />
+         <MenuItem Name="PDT_PAR_001T_21_390"   Label="Gestion des Types d'Affichage de Ventilation" />
+         <MenuItem Name="PDT_PAR_003T_21_2"   Label="Gestion des Attributs Visuels d'Etat de Reglement" />
+         <MenuItem Name="COT_RGT_001T_1"   Label="Gestion des Types de Journal" />
+         <MenuItem Name="COT_RGT_002T_1"   Label="Gestion des Journaux" />
+         <MenuItem Name="COT_RGT_003T_10"   Label="Consultation d'un Lot de Reglement" />
+      </Menu>
+      <Menu Name="COT_RGT_MAN_MENU" >
+         <MenuItem Name="COT_RGT_003T_1"   Label="Saisie des Reglements de Masse" />
+         <MenuItem Name="COT_RGT_003T_11"   Label="Saisie des Reglements de Masse des Personnes" />
+         <MenuItem Name="COT_RGT_003T_12"   Label="Saisie des Reglements de Masse des Collectivites" />
+         <MenuItem Name="COT_RGT_003T_15"   Label="Saisie des Reglements de Masse (L. Opt.)" />
+         <MenuItem Name="COT_RGT_003T_16"   Label="Saisie des Rgts de Masse des Personnes (L. Opt.)" />
+         <MenuItem Name="COT_RGT_003T_17"   Label="Saisie des Rgts de Masse des Collectivites (L. O.)" />
+         <MenuItem Name="COT_RGT_003T_13"   Label="Reglements au Guichet des Personnes" />
+         <MenuItem Name="COT_RGT_003T_14"   Label="Reglements au Guichet des Collectivites" />
+         <MenuItem Name="COT_RGT_003T_4"   Label="Saisie des Reglements de Multi Affectations" />
+         <MenuItem Name="COT_RGT_003T_18"   Label="Saisie des Rgts de Multi Affectations (L. Opt.)" />
+         <MenuItem Name="COT_RGT_003T_6"   Label="Gestion des Annulations de Reglement" />
+         <MenuItem Name="COT_RGT_003T_7"   Label="Gestion des Reaffectations de Reglement" />
+         <MenuItem Name="PDT_PAR_001T_21_191"   Label="Gestion des Motifs de Rejet de Reglement" />
+         <MenuItem Name="COT_RGT_003T_8"   Label="Gestion des Reglements Impayes" />
+      </Menu>
+      <Menu Name="COT_RGT_PRL_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_466"   Label="Gestion des Types de Notifications" />
+         <MenuItem Name="COT_ECH_005T_1"   Label="Calendrier des Prelevements" />
+         <MenuItem Name="PDT_PAR_001T_21_195"   Label="Gestion des Anomalies de Prelevement" />
+         <MenuItem Name="COT_RGT_034T_1"   Label="Visualisation des Simulations des Prelevements" />
+         <MenuItem Name="COT_RGT_008T_1"   Label="Visualisation des Prelevements" />
+         <MenuItem Name="COT_RGT_009T_1"   Label="Gestion des Motifs de Rejet de Prelevement" />
+         <MenuItem Name="COT_RGT_003T_20"   Label="Saisie des Rejets de Prelevements" />
+         <MenuItem Name="COT_RGT_027T_1"   Label="Gestion des Prelevements sur Salaire" />
+      </Menu>
+      <Menu Name="COT_RGT_TIP_MENU" >
+         <MenuItem Name="COT_RGT_003T_19"   Label="Gestion des Rgts des Personnes par TIP" />
+         <MenuItem Name="COT_RGT_003T_21"   Label="Suivi des Rejets de TIP des Personnes" />
+      </Menu>
+      <Menu Name="COT_RGT_TPC_MENU" >
+         <MenuItem Name="COT_RGT_032T_1"   Label="Gestion des Motifs de Trop Percu" />
+         <MenuItem Name="COT_RGT_003T_5"   Label="Gestion des Trop Percus." />
+         <MenuItem Name="PAI_EPA_006T_1"   Label="Gestion des Planches de Cheques" />
+         <MenuItem Name="PAI_EPA_007T_1"   Label="Renumerotation des Cheques" />
+      </Menu>
+      <Menu Name="COT_RGT_OD_MENU" >
+         <MenuItem Name="COT_RGT_003T_9"   Label="Gestion des Operations Diverses." />
+         <MenuItem Name="COT_RGT_003T_22"   Enabled="true" Label="Gestion des OD Comptable" />
+      </Menu>
+      <Menu Name="COT_RGT_XML_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_532"   Label="Gestion des Types de Mouvements" />
+         <MenuItem Name="PDT_PAR_001T_21_533"   Label="Gestion des Types de Payeurs" />
+         <MenuItem Name="PDT_PAR_001T_21_534"   Label="Gestion des Etats de Reglements" />
+         <MenuItem Name="COT_RGT_036T_1"   Enabled="true" Label="Gestion des anomalies des reglements xml" />
+      </Menu>
+      <Menu Name="COT_RAP_SFD_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_199"   Label="Gestion des Motifs de Cloture des Rappels" />
+         <MenuItem Name="PDT_PAR_001T_21_200"   Label="Gestion des Types de Blocage des Prestations" />
+         <MenuItem Name="PDT_PAR_001T_21_201"   Label="Gestion des Modes de Blocage des Prestations" />
+         <MenuItem Name="POP_PER_009T_1"   Enabled="true" Label="Gestion des Motifs de Blocage des Prestations" />
+         <MenuItem Name="COT_RAP_002T_1"   Enabled="true" Label="Visualisation des Radiations" />
+      </Menu>
+      <Menu Name="HABILITATION_MENU" >
+         <MenuItem Name="PARAMETRAGE"  Label="Parametrage" SubMenuName="HAB_PARAMETRAGE" />
+         <MenuItem Name="PROFIL"  Label="Profils" SubMenuName="HAB_PROFIL" />
+         <MenuItem Name="HABILITATION"  Label="Habilitation" SubMenuName="HAB_HABILITATION" />
+      </Menu>
+      <Menu Name="HAB_PARAMETRAGE" >
+         <MenuItem Name="PDT_PAR_001T_21_351"   Label="Gestion des Modes d'Acces aux Groupes de Droits" />
+         <MenuItem Name="HAB_HAB_001T_1"   Label="Gestion des Modes d'Acces aux Fonctions" />
+         <MenuItem Name="PDT_PAR_001T_21_118"   Label="Gestion des Groupes de Profils" />
+         <MenuItem Name="PDT_PAR_001T_21_119"   Label="Gestion des Groupes de Roles" />
+         <MenuItem Name="HAB_HAB_003T_1"   Label="Gestion des Fonctions non Habilitables" />
+      </Menu>
+      <Menu Name="HAB_PROFIL" >
+         <MenuItem Name="HAB_HAB_009T_1"   Label="Gestion des Groupes de Droits" />
+         <MenuItem Name="HAB_HAB_008T_1"   Label="Gestion des Roles" />
+         <MenuItem Name="HAB_HAB_006T_1"   Label="Gestion des Profils" />
+      </Menu>
+      <Menu Name="HAB_HABILITATION" >
+         <MenuItem Name="HAB_HAB_002T_1"   Label="Gestion des Agents (Mode Administrateur)" />
+         <MenuItem Name="HAB_HAB_002T_2"   Label="Gestion des Agents" />
+         <MenuItem Name="HAB_HAB_014T_1"   Label="Changement Mot de Passe" />
+      </Menu>
+      <Menu Name="BATCH_MENU" >
+         <MenuItem Name="REFERENTIEL"  Label="Referentiel" SubMenuName="BAT_PAR_MENU" />
+         <MenuItem Name="GESTION_BATCHS"  Label="Gestion Batchs" SubMenuName="BAT_GES_MENU" />
+      </Menu>
+      <Menu Name="BAT_PAR_MENU" >
+         <MenuItem Name="BAT_GENERALITE"  Label="Generalite" SubMenuName="BAT_GENERALITE_MENU" />
+         <MenuItem Name="BAT_COMMANDE"  Label="Commande" SubMenuName="BAT_COMMANDE_MENU" />
+         <MenuItem Name="BAT_FIN_JOURNEE"  Label="Fin de Journee" SubMenuName="BAT_FIN_JOURNEE_MENU" />
+         <MenuItem Name="BAT_MODELE"  Label="Modele" SubMenuName="BAT_MODELE_MENU" />
+         <MenuItem Name="BAT_FCT_CTL"  Label="Fonction de Controle" SubMenuName="BAT_FCT_CTL_MENU" />
+         <MenuItem Name="BAT_FCT_PLANIF"  Label="Fonction de Planification" SubMenuName="BAT_FCT_PLANIF_MENU" />
+         <MenuItem Name="BAT_INFOGERANCE"  Label="Infogerance" SubMenuName="BAT_INFOGERANCE_MENU" />
+      </Menu>
+      <Menu Name="BAT_FCT_CTL_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_66"  Label="Type des Fonctions de Controle" />
+         <MenuItem Name="BAT_REF_019T_1"  Label="Gestion des Packages de Fonction de Controle" />
+         <MenuItem Name="BAT_REF_003T_1"  Label="Gestion des Fonctions de Controle" />
+         <MenuItem Name="BAT_REF_020B_1"  Label="Generation des Fonctions de Controle" />
+         <MenuItem Name="BAT_REF_021T_1"  Label="Visualisation du Module de Controle" />
+         <MenuItem Name="BAT_REF_022B_1"  Label="Export de Fonctions de Controle" />
+         <MenuItem Name="BAT_REF_023B_1"  Label="Import de Fonctions de Controle" />
+      </Menu>
+      <Menu Name="BAT_FCT_PLANIF_MENU" >
+         <MenuItem Name="BAT_REF_010T_1"  Label="Gestion des Fonctions de Planification" />
+         <MenuItem Name="BAT_REF_012B_1"  Label="Generation des Fonctions de Planification" />
+      </Menu>
+      <Menu Name="BAT_MODELE_MENU" >
+         <MenuItem Name="BAT_REF_002T_1"  Label="Parametrage des Modules" />
+         <MenuItem Name="PDT_PAR_001T_21_67"  Label="Gestion des Proprietaires" />
+         <MenuItem Name="BAT_REF_015T_1"  Label="Gestion des Types de Groupement de Domaine" />
+         <MenuItem Name="BAT_REF_016T_1"  Label="Gestion des Domaines" />
+         <MenuItem Name="BAT_REF_017T_1"  Label="Gestion des Groupements de Domaine" />
+         <MenuItem Name="BAT_REF_007T_1"  Label="Gestion des Modeles" />
+         <MenuItem Name="BAT_REF_011T_1"  Label="Gestion des Parametres des Modeles Suivants" />
+         <MenuItem Name="BAT_REF_018T_1"  Label="Liste des Modeles" />
+         <MenuItem Name="BAT_REF_008T_1"  Label="Gestion de Duplication de Modele" />
+         <MenuItem Name="BAT_REF_013B_1"  Label="Export de Modele" />
+         <MenuItem Name="BAT_REF_014B_1"  Label="Import de Modele" />
+      </Menu>
+      <Menu Name="BAT_COMMANDE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_64"  Label="Type de Parametre" />
+         <MenuItem Name="BAT_REF_004T_1"  Label="Gestion des Parametres Systemes" />
+         <MenuItem Name="BAT_REF_009T_1"  Label="Gestion des Listes de Valeurs des Parametres" />
+         <MenuItem Name="BAT_REF_005T_1"  Label="Gestion des Parametres Applicatifs" />
+         <MenuItem Name="BAT_REF_006T_1"  Label="Gestion des Lignes de Commande" />
+         <MenuItem Name="PDT_PAR_001T_21_454"  Label="Gestion des Etats des Lignes de Commande" />
+      </Menu>
+      <Menu Name="BAT_FIN_JOURNEE_MENU" >
+         <MenuItem Name="BAT_MAN_010T_1"  Label="Gestion des Fins de Journee" />
+      </Menu>
+      <Menu Name="BAT_GENERALITE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_62"  Label="Type Profil" />
+         <MenuItem Name="PDT_PAR_001T_21_63"  Label="Type Message" />
+         <MenuItem Name="PDT_PAR_001T_21_65"  Label="Type Lancement" />
+         <MenuItem Name="BAT_REF_001T_1"  Label="Gestion du Parametrage Fixe" />
+      </Menu>
+      <Menu Name="BAT_INFOGERANCE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_418"  Label="Types d'Acte de Gestion" />
+         <MenuItem Name="PDT_PAR_001T_21_422"  Label="Chaines de Traitement" />
+         <MenuItem Name="PDT_PAR_001T_21_425"  Label="Types de Sortie" />
+         <MenuItem Name="PDT_PAR_001T_21_426"  Label="Provenance des Flux" />
+         <MenuItem Name="BAT_INF_001T_1"   Label="Actes de Gestion" />
+         <MenuItem Name="BAT_INF_005B_1"  Label="Exportation d'un Acte de Gestion" />
+         <MenuItem Name="BAT_INF_006B_1"  Label="Importation d'un Acte de Gestion" />
+      </Menu>
+      <Menu Name="BAT_GES_MENU" >
+         <MenuItem Name="BAT_MAN_001T_1"  Label="Parametrage des Utilisateurs" />
+         <MenuItem Name="BAT_MAN_002T_1"  Label="Lancement d'un Traitement Batch" />
+         <MenuItem Name="BAT_MAN_010T_2"  Label="Execution des Fins de Journees" />
+         <MenuItem Name="BAT_MAN_004T_1"  Label="Visualisation des Traitements Batchs" CommandType="PL/SQL" />
+         <MenuItem Name="BAT_SMS_001T_1"  Label="Visualisation des Soumissions" />
+         <MenuItem Name="BAT_INF_002T_1"  Label="Gestion de la Journee d'Exploitation" />
+      </Menu>
+      <Menu Name="ECHANGE_MENU" >
+         <MenuItem Name="REFERENTIEL"  Label="Referentiel" SubMenuName="ECH_REF_MENU" />
+         <MenuItem Name="TELETRANSMISSIONS"  Label="Teletransmissions" SubMenuName="ECH_TEL_MENU" />
+         <MenuItem Name="CONTROLES"  Label="Controles" SubMenuName="ECH_CTR_MENU" />
+         <MenuItem Name="INTERFACE_FLUX"  Label="Interface Flux" SubMenuName="ECH_INT_MENU" />
+      </Menu>
+      <Menu Name="ECH_REF_GENERALITE_MENU" >
+         <MenuItem Name="ECH_REF_002T_1"  Label="Gestion des Caracteres" />
+         <MenuItem Name="PDT_PAR_001T_21_150"  Label="Gestion des Types de Propriete" />
+         <MenuItem Name="ECH_REF_027T_1"   Label="Gestion des Rassemblements" />
+         <MenuItem Name="PDT_PAR_001T_21_53"  Label="Gestion des Separateurs" />
+         <MenuItem Name="PDT_PAR_001T_21_69"  Label="Gestion des Types de Padding" />
+         <MenuItem Name="ECH_REF_001T_1"  Label="Gestion du Parametrage General" />
+      </Menu>
+      <Menu Name="ECH_REF_ANOMALIE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_52"  Label="Gestion des Motifs de Rejet" />
+         <MenuItem Name="PDT_PAR_001T_21_55"  Label="Gestion des Portees d'Anomalie" />
+         <MenuItem Name="PDT_PAR_001T_21_54"  Label="Gestion des Types d'Anomalie" />
+         <MenuItem Name="PDT_PAR_001T_21_57"  Label="Gestion des Genres d'Anomalie" />
+         <MenuItem Name="PDT_PAR_001T_21_58"  Label="Gestion des Localisations d'Anomalie" />
+         <MenuItem Name="PDT_PAR_001T_21_59"  Label="Gestion des Niveaux d'Anomalie" />
+         <MenuItem Name="PDT_PAR_001T_21_60"  Label="Gestion des Severites d'Anomalie" />
+         <MenuItem Name="PDT_PAR_001T_21_256"  Label="Gestion des Types de Blocage Anomalies" />
+         <MenuItem Name="PDT_PAR_001T_21_344"  Label="Gestion des Positions d' Anomalies" />
+         <MenuItem Name="ECH_REF_009T_1"  Label="Gestion des Anomalies" />
+         <MenuItem Name="ECH_REF_010T_1"  Label="Gestion des Groupements d'Anomalie" />
+         <MenuItem Name="ECH_REF_025T_1"  Label="Gestion des Blocages Anomalie" />
+      </Menu>
+      <Menu Name="ECH_REF_NORME_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_48"  Label="Gestion des Types de Norme" />
+         <MenuItem Name="PDT_PAR_001T_21_51"  Label="Gestion des Categories de Norme" />
+         <MenuItem Name="PDT_PAR_001T_21_443"  Label="Gestion des Proprietes de Normes" />
+         <MenuItem Name="PDT_PAR_001T_21_120"  Label="Gestion des Types de Terme" />
+         <MenuItem Name="ECH_REF_024T_1"  Label="Gestion des Termes" />
+         <MenuItem Name="ECH_REF_029T_1"   Label="Parametrage des Types Extraits dans les Flux XML" />
+         <MenuItem Name="ECH_REF_003T_1"  Label="Gestion des Normes Physiques" />
+         <MenuItem Name="ECH_REF_014T_1"   Label="Gestion des Normes" />
+         <MenuItem Name="ECH_REF_014T_2"   Label="Gestion des Normes XML" />
+         <MenuItem Name="ECH_REF_019T_1"  Label="Edition des Normes" />
+         <MenuItem Name="ECH_REF_015T_1"  Label="Duplication des Normes" />
+         <MenuItem Name="ECH_REF_020B_1"  Label="Export des Normes" />
+         <MenuItem Name="ECH_REF_021B_1"  Label="Import des Normes" />
+      </Menu>
+      <Menu Name="ECH_REF_ENTITE_MENU" >
+         <MenuItem Name="ECH_REF_004T_1"  Label="Gestion des Types de Ligne" />
+         <MenuItem Name="PDT_PAR_001T_21_56"  Label="Gestion des Types d'Entite Suivante" />
+         <MenuItem Name="ECH_REF_013T_1"   Label="Gestion des Entites" />
+         <MenuItem Name="ECH_REF_013T_2"   Label="Gestion des Entites XML" />
+         <MenuItem Name="ECH_REF_016T_1"  Label="Duplication des Entites" />
+      </Menu>
+      <Menu Name="ECH_REF_CHAMPS_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_50"  Label="Gestion des Types de Champs" />
+         <MenuItem Name="ECH_REF_006T_1"  Label="Gestion des Formats" />
+         <MenuItem Name="ECH_REF_007T_1"  Label="Gestion des Listes de Valeurs des Champs" />
+         <MenuItem Name="ECH_REF_012T_1"  Label="Gestion des Champs" />
+      </Menu>
+      <Menu Name="ECH_REF_FICHIER_MENU" >
+         <MenuItem Name="ECH_REF_011T_1"  Label="Gestion des Types de Fichier" />
+         <MenuItem Name="ECH_REF_008T_1"  Label="Gestion des Compteurs" />
+         <MenuItem Name="PDT_PAR_001T_21_12"  Label="Gestion des Types d'Etat" />
+         <MenuItem Name="PDT_PAR_001T_21_413"  Label="Gestion des Regroupement de Compteur" />
+         <MenuItem Name="ECH_REF_005T_1"  Label="Gestion des Etats Fichier" />
+         <MenuItem Name="ECH_REF_026T_1"  Label="Gestion de la Recuperation des Flux" />
+      </Menu>
+      <Menu Name="ECH_REF_PACKAGE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_47"  Label="Gestion des Types de Fonction de Package" />
+         <MenuItem Name="PDT_PAR_001T_21_46"  Label="Gestion des Fonctions" />
+         <MenuItem Name="PDT_PAR_001T_21_68"  Label="Gestion des Types de Package" />
+         <MenuItem Name="PDT_PAR_001T_21_70"  Label="Gestion des Modes de Generation" />
+         <MenuItem Name="ECH_REF_023T_1"  Label="Gestion des Packages" />
+         <MenuItem Name="ECH_REF_017T_1"  Label="Gestion des Fonctions de Package" />
+         <MenuItem Name="ECH_REF_022B_1"  Label="Generation des Fonctions de Package" />
+      </Menu>
+      <Menu Name="ECH_REF_MENU" >
+         <MenuItem Name="ECH_REF_GENERALITE"  Label="Generalites" SubMenuName="ECH_REF_GENERALITE_MENU" />
+         <MenuItem Name="ECH_REF_ANOMALIE"  Label="Anomalie" SubMenuName="ECH_REF_ANOMALIE_MENU" />
+         <MenuItem Name="ECH_REF_NORME"  Label="Norme" SubMenuName="ECH_REF_NORME_MENU" />
+         <MenuItem Name="ECH_REF_ENTITE"  Label="Entite" SubMenuName="ECH_REF_ENTITE_MENU" />
+         <MenuItem Name="ECH_REF_CHAMPS"  Label="Champs" SubMenuName="ECH_REF_CHAMPS_MENU" />
+         <MenuItem Name="ECH_REF_PARTENAIRE"  Label="Partenaire" SubMenuName="ECH_REF_PARTENAIRE_MENU" />
+         <MenuItem Name="ECH_REF_FICHIER"  Label="Fichier" SubMenuName="ECH_REF_FICHIER_MENU" />
+         <MenuItem Name="ECH_REF_PACKAGE"  Label="Package" SubMenuName="ECH_REF_PACKAGE_MENU" />
+         <MenuItem Name="ECH_REF_CONTROLE"  Label="Controle" SubMenuName="ECH_REF_CONTROLE_MENU" />
+         <MenuItem Name="ECH_CONVERSION_FLUX"  Label="Conversion de Flux" SubMenuName="ECH_CONVERSION_FLUX_MENU" />
+      </Menu>
+      <Menu Name="ECH_REF_PARTENAIRE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_45"  Label="Gestion des Types de Partenaire" />
+         <MenuItem Name="PDT_PAR_001T_21_61"  Label="Gestion des Sens" />
+         <MenuItem Name="PDT_PAR_001T_21_124"  Label="Gestion des Types de Retour" />
+         <MenuItem Name="PDT_PAR_001T_21_549"   Label="Gestion des Niveaux de Retour" />
+         <MenuItem Name="PDT_PAR_001T_21_203"  Label="Gestion des Types d'Association" />
+         <MenuItem Name="ECH_REF_018T_1"  Label="Gestion des Partenaires de Teletransmission" />
+      </Menu>
+      <Menu Name="ECH_REF_CONTROLE_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_44"  Label="Gestion des Types de Parametre" />
+         <MenuItem Name="ECH_CTL_007T_1"  Label="Gestion des Packages de Fonctions" />
+         <MenuItem Name="ECH_CTL_001T_1"  Label="Gestion des Fonctions de Controles" />
+      </Menu>
+      <Menu Name="ECH_CONVERSION_FLUX_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_530"  Label="Type d'Acteur" />
+         <MenuItem Name="PDT_PAR_001T_21_531"  Label="Type de Conversion" />
+         <MenuItem Name="ECH_REF_028T_1"  Label="Parametrage des Conversions" />
+      </Menu>
+      <Menu Name="ECH_TEL_MENU" >
+         <MenuItem Name="ECH_TEL_001T_1"  Label="Gestion des Fichiers" />
+         <MenuItem Name="ECH_TEL_006T_1"  Label="Gestion des Listes de Fichiers" />
+         <MenuItem Name="ECH_TEL_005T_1"  Label="Correction des Anomalies Enregistrement" />
+         <MenuItem Name="ECH_TEL_005T_2"  Label="Visualiser les Enregistrements" />
+         <MenuItem Name="ECH_TEL_007T_1"  Label="Passage de Fichier d'un etat a un autre" />
+         <MenuItem Name="ECH_TEL_008T_1"  Label="Gestion de l'Historisation des Fichiers" />
+      </Menu>
+      <Menu Name="ECH_CTR_MENU" >
+         <MenuItem Name="ECH_CTL_003T_1"  Label="Parametrage du Module de Controles" />
+         <MenuItem Name="ECH_CTL_002B_1"  Label="Generation du Package et des Fcts de Controle" />
+         <MenuItem Name="ECH_CTL_005T_1"  Label="Visualisation du Module de Controles" />
+      </Menu>
+      <Menu Name="ECH_INT_MENU" >
+         <MenuItem Name="ECH_INT_REF_MENU"  Label="Referentiel" SubMenuName="ECH_INT_REF" />
+         <MenuItem Name="ECH_INT_001T_1"  Label="Gestion des Origines des Flux Entrants" />
+      </Menu>
+      <Menu Name="ECH_INT_REF" >
+         <MenuItem Name="PDT_PAR_001T_21_368"  Label="Gestion des Variables" />
+         <MenuItem Name="PDT_PAR_001T_21_369"  Label="Gestion des Modes de Calcul" />
+         <MenuItem Name="PDT_PAR_001T_21_370"  Label="Gestion des Conditions" />
+         <MenuItem Name="ECH_INT_002T_1"  Label="Gestion des Structures Flux" />
+         <MenuItem Name="ECH_INT_003T_1"  Label="Gestion des Fonctions de Calcul" />
+         <MenuItem Name="ECH_INT_005B_1"  Label="Import des Fonctions de Calcul" />
+         <MenuItem Name="ECH_INT_004B_1"  Label="Export des Fonctions de Calcul" />
+         <MenuItem Name="ECH_INT_006B_1"  Label="Generation des Fonctions de Calcul" />
+      </Menu>
+      <Menu Name="MUTASSIST_MENU" >
+         <MenuItem Name="MTA_DOS_004T_1"   Label="Saisie des Missions" />
+         <MenuItem Name="MTA_DOS_005T_1"   Label="Planning des Missions" />
+         <MenuItem Name="MTA_DOS_007T_1"   Label="Editions des Prestations a Payer" />
+         <MenuItem Name="MTA_PAR_003T_1"   Label="Gestion des Associations" />
+         <MenuItem Name="MTA_PAR_001T_1"   Label="Gestion des Prestations" />
+         <MenuItem Name="MTA_PAR_002T_1"   Label="Gestion des Annulations" />
+         <MenuItem Name="PDT_PAR_001T_21_261"   Label="Gestion des Aides" />
+         <MenuItem Name="PDT_PAR_001T_21_262"   Label="Gestion des Liens de Parente" />
+         <MenuItem Name="PDT_PAR_001T_21_263"   Label="Gestion des Caisses de Retraite" />
+         <MenuItem Name="PDT_PAR_001T_21_264"   Label="Gestion des Durees d'Aides" />
+         <MenuItem Name="PDT_PAR_001T_21_265"   Label="Gestion des Types d'agrements" />
+         <MenuItem Name="PDT_PAR_001T_21_266"   Label="Gestion des Types d'Annulations" />
+         <MenuItem Name="PDT_PAR_001T_21_267"   Label="Gestion des Types de Satisfaction" />
+      </Menu>
+      <Menu Name="CONTENTIEUX_MENU" >
+         <MenuItem Name="CTX_DOS_006T_1"   Label="Gestion des Dossiers Contentieux" />
+         <MenuItem Name="CTX_DOS_001T_1"   Label="Saisie d'une Origine de Contentieux" />
+         <MenuItem Name="CTX_DOS_002T_1"   Label="Saisie d'un Evenement" />
+         <MenuItem Name="CTX_DOS_007T_1"   Label="Mise en Contentieux" />
+         <MenuItem Name="CTX_DOS_003T_1"   Label="Annulation" />
+         <MenuItem Name="CTX_DOS_003T_2"   Label="Remboursement" />
+         <MenuItem Name="CTX_DOS_008T_1"   Label="Annulation de Remboursement" />
+         <MenuItem Name="CTX_REC_002T_1"   Label="Mise en Recouvrement" />
+         <MenuItem Name="CTX_REC_004T_1"   Label="Remboursement de Recouvrement" />
+         <MenuItem Name="CTX_REC_003T_1"   Label="Retour de Recouvrement" />
+         <MenuItem Name="CTX_DOS_004T_1"   Label="Mise en Irrecuperable" />
+         <MenuItem Name="CTX_DOS_005T_1"   Label="Retour de Mise en Irrecuperable" />
+         <MenuItem Name="PARAMETRAGE_CTX"  Label="Parametrage" SubMenuName="CTX_REF_MENU" />
+      </Menu>
+      <Menu Name="CTX_REF_MENU"  TearOffMenu="true">
+         <MenuItem Name="CTX_PAR_002T_1"   Label="Gestion des Types d'Origine de Contentieux" />
+         <MenuItem Name="CTX_PAR_004T_1"   Label="Gestion des Groupes d'Origines" />
+         <MenuItem Name="CTX_PAR_005T_1"   Label="Gestion des Produits Exclus" />
+         <MenuItem Name="CTX_PAR_001T_1"   Label="Gestion des Types d'Evenements" />
+         <MenuItem Name="CTX_REC_001T_1"   Label="Gestion des Cabinets de Recouvrement" />
+         <MenuItem Name="CTX_DOS_014T_1"   Label="Gestion des Textes de Recouvrement" />
+         <MenuItem Name="PDT_PAR_001T_21_204"   Label="Gestion des lieux d'Evenements" />
+         <MenuItem Name="PDT_PAR_001T_21_205"   Label="Gestion des Sens des Operations Comptables" />
+         <MenuItem Name="PDT_PAR_001T_21_206"   Label="Gestion des Modes de Remboursement" />
+         <MenuItem Name="CTX_PAR_006T_1"   Label="Gestion des Journaux Contentieux" />
+         <MenuItem Name="CTX_DOS_012T_1"   Label="Gestion des Textes de Contentieux" />
+         <MenuItem Name="CTX_DOS_013T_1"   Label="Gestion des Textes de 1er Courrier" />
+         <MenuItem Name="CTX_DOS_016T_1"   Label="Gestion des Modeles de Textes de Premier Courrier" />
+      </Menu>
+      <Menu Name="BUREAUTIQUE_MENU" >
+         <MenuItem Name="PARAMETRAGE"  Label="Referentiel" SubMenuName="BUR_PARAM_MENU" />
+         <MenuItem Name="ACTEURS"  Label="Acteurs" SubMenuName="BUR_ACTEURS_MENU" />
+         <MenuItem Name="EVENEMENTS"  Label="Evenements" SubMenuName="BUR_EVENEMENTS_MENU" />
+      </Menu>
+      <Menu Name="BUR_PARAM_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_134"   Label="Gestion des Types de Variable" />
+         <MenuItem Name="PDT_PAR_001T_21_135"   Label="Gestion des Types de Donnees" />
+         <MenuItem Name="PDT_PAR_001T_21_136"   Label="Gestion des Sens d'Evenement" />
+         <MenuItem Name="PDT_PAR_001T_21_137"   Label="Gestion des Natures d'Evenement" />
+         <MenuItem Name="BUR_REF_007T_1"  MenuItemType="Plain"  Label="Gestion du Parametrage des Dossiers" CommandType="PL/SQL" />
+         <MenuItem Name="BUR_REF_006T_1"  MenuItemType="Plain"  Label="Gestion des Variables" CommandType="PL/SQL" />
+         <MenuItem Name="BUR_REF_005T_1"  MenuItemType="Plain"  Label="Gestion des Domaines et Themes" CommandType="PL/SQL" />
+         <MenuItem Name="BUR_REF_004T_1"   Label="Gestion des Modeles de Documents" />
+         <MenuItem Name="BUR_REF_001T_1"   Label="Gestion des Modeles d'Evenements" />
+         <MenuItem Name="BUR_PDT_002T_1"  MenuItemType="Plain"  Label="Gestion des Acces Contextuels" CommandType="PL/SQL" />
+      </Menu>
+      <Menu Name="BUR_ACTEURS_MENU" >
+         <MenuItem Name="BUR_ACT_001T_1"   Label="Gestion des Acteurs Bureautique" />
+      </Menu>
+      <Menu Name="BUR_EVENEMENTS_MENU" >
+         <MenuItem Name="BUR_EVT_001T_1"   Label="Creation d'un Evenement Bureautique" />
+         <MenuItem Name="BUR_EVT_002T_1"   Label="Liste des Evenements par Acteur" />
+      </Menu>
+      <Menu Name="TRACABILITE_MENU" >
+         <MenuItem Name="PARAMETRAGE"  Label="Referentiel" SubMenuName="TRC_PARAMETRAGE" />
+         <MenuItem Name="CONTROLE"  Label="Controle" SubMenuName="TRC_CONTROLE" />
+         <MenuItem Name="DEBLOCAGE"  Label="Deblocage" SubMenuName="TRC_DEBLOCAGE" />
+      </Menu>
+      <Menu Name="TRC_PARAMETRAGE" >
+         <MenuItem Name="PDT_PAR_001T_21_10"   Label="Gestion des Types d'Operations" />
+         <MenuItem Name="PDT_PAR_001T_21_145"   Label="Gestion des Niveaux de Blocages" />
+         <MenuItem Name="TRC_CTL_004T_1"   Label="Gestion des Regles de Controle" />
+         <MenuItem Name="PDT_PAR_001T_21_11"   Label="Gestion des Degres d'Anomalie" />
+         <MenuItem Name="TRC_CTL_002T_1"   Label="Gestion des Anomalies" />
+         <MenuItem Name="TRC_CTL_005T_1"   Label="Visualisation des Decisions de Controle" />
+         <MenuItem Name="TRC_CAT_001T_1"   Label="Visualisation du Catalogue des Objets" />
+         <MenuItem Name="TRC_CTL_014T_1"   Label="Parametrage des lots de controle" />
+         <MenuItem Name="TRC_CAT_002T_1"   Label="Gestion des Attributs a Tracer" />
+         <MenuItem Name="TRC_TRC_003T_1"   Label="Gestion des Groupes d'Agents de Tracabilite" />
+         <MenuItem Name="TRC_TRC_002T_1"   Label="Gestion des Tracabilites" />
+      </Menu>
+      <Menu Name="TRC_CONTROLE" >
+         <MenuItem Name="TRC_CTL_007T_1"   Label="Visualisation et Controle des Traces" />
+         <MenuItem Name="TRC_CTL_013T_1"   Label="Suivi des Controles par Objets" />
+         <MenuItem Name="TRC_CTL_015T_1"   Label="Visualisation des lots de Controle" />
+      </Menu>
+      <Menu Name="TRC_DEBLOCAGE" >
+         <MenuItem Name="TRC_CTL_009T_1"   Label="Deblocage d'Acteur" />
+         <MenuItem Name="TRC_CTL_010T_1"   Label="Deblocage Manuel par Objet" />
+      </Menu>
+      <Menu Name="JOURNALISATION_MENU" >
+         <MenuItem Name="REFERENTIEL"  Label="Referentiel" SubMenuName="JRN_REFERENTIEL" />
+         <MenuItem Name="JRN_JRN_001T_1"   Label="Visualisation des Operations" />
+      </Menu>
+      <Menu Name="JRN_REFERENTIEL" >
+         <MenuItem Name="PDT_PAR_001T_21_566"   Label="Gestion des Types d'Operation" />
+         <MenuItem Name="PDT_PAR_052T_1"   Label="Gestion des Tables Journalisees" />
+         <MenuItem Name="JRN_REF_001T_1"   Label="Gestion des Tables d'Impact de la Journalisation" />
+      </Menu>
+      <Menu Name="HISTORISATION_MENU" >
+         <MenuItem Name="PARAMETRAGE"  Label="Referentiel" SubMenuName="HIS_PARAMETRAGE" />
+         <MenuItem Name="HISTORISATION"  Label="Historisation" SubMenuName="HIS_HISTORISATION" />
+      </Menu>
+      <Menu Name="HIS_PARAMETRAGE" >
+         <MenuItem Name="HIS_HIS_001T_1"   Label="Catalogue des Objets de l'Historisation" />
+         <MenuItem Name="PDT_PAR_001T_21_193"   Label="Gestion des Types de Traitement" />
+         <MenuItem Name="PDT_PAR_001T_21_194"   Label="Gestion des Types de Donnees" />
+         <MenuItem Name="HIS_HIS_002T_1"   Label="Gestion des Objets d'Historisation" />
+      </Menu>
+      <Menu Name="HIS_HISTORISATION" >
+         <MenuItem Name="HIS_HIS_003T_1"   Label="Gestion des Chaines d'Historisation" />
+         <MenuItem Name="HIS_HIS_004T_1"   Label="Visualisation des Rejets" />
+         <MenuItem Name="HIS_EPU_009T_1"   Label="Suivi d'Historisation et d'Epuration" />
+      </Menu>
+      <Menu Name="INT_COMPTA_MENU" >
+         <MenuItem Name="REFERENTIEL"  Label="Referentiel" SubMenuName="REF_ICA" />
+         <MenuItem Name="PARAMETRAGE"  Label="Parametrage" SubMenuName="PARAM_ICA" />
+      </Menu>
+      <Menu Name="REF_ICA" >
+         <MenuItem Name="ICA_REF_001T_1"  Label="Gestion des Exercices Comptables" />
+         <MenuItem Name="PDT_PAR_001T_21_508"   Label="Gestion des Types de Periodes Comptables" />
+         <MenuItem Name="ICA_REF_002T_1"  Label="Gestion des Types d'Operations" />
+         <MenuItem Name="PDT_PAR_001T_21_233"  Label="Gestion des Groupes de Type d'Operation" />
+         <MenuItem Name="ICA_REF_005T_1"  Label="Gestion des Comptes" />
+         <MenuItem Name="PDT_PAR_001T_21_183"  Label="Gestion des Exercices Relatifs" />
+         <MenuItem Name="ICA_REF_006T_1"  Label="Gestion des Types d'Anomalies" />
+         <MenuItem Name="PDT_PAR_001T_21_296"  Label="Gestion des Types de Compta" />
+         <MenuItem Name="PDT_PAR_001T_21_297"  Label="Gestion des Niveaux de Compta Analytique" />
+         <MenuItem Name="PDT_PAR_001T_21_376"  Label="Gestion des organismes comptables" />
+      </Menu>
+      <Menu Name="PARAM_ICA" >
+         <MenuItem Name="ICA_IMP_001T_1"  Label="Definition des Imputations Comptables " />
+         <MenuItem Name="ICA_IMP_002T_1"  Label="Affect. des Imputations Comptables (Cotisation)" />
+         <MenuItem Name="ICA_IMP_003T_1"  Label="Affect. des Imputations Comptables (Prestation)" />
+         <MenuItem Name="ICA_IMP_008T_1"   Label="Affect. des Types d'Op. Comptables (Contentieux)" />
+         <MenuItem Name="ICA_IMP_006T_1"  Label=" Anomalies de Parametrage Comptables" />
+      </Menu>
+      <Menu Name="CONTROLE_DOSSIERS_MENU" >
+         <MenuItem Name="PRC_REF"  Label="Referentiel" SubMenuName="PRC_REF_MENU" />
+         <MenuItem Name="PRC_REF_004T_1"   Label="Controle des Dossiers Maladie" />
+      </Menu>
+      <Menu Name="PRC_REF_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_220"  Label="Gestion des Anomalies de Controle" />
+         <MenuItem Name="PRC_REF_001T_1"   Label="Gestion des Types de Critere" />
+         <MenuItem Name="PDT_PAR_001T_21_515"   Label="Gestion des Contextes de Critere de Controle" />
+         <MenuItem Name="PRC_REF_009T_1"   Label="Gestion des Niveaux de Groupe Critere de Controle" />
+         <MenuItem Name="PRC_REF_002T_1"   Label="Gestion des Criteres de Controle" />
+         <MenuItem Name="PRC_REF_003T_1"   Label="Gestion Groupes Criteres de Controle" />
+         <MenuItem Name="PRC_REF_005T_1"   Label="Gestion des Actions de Controle" />
+      </Menu>
+      <Menu Name="DOSSIERS_MEDICAUX_ADM_MENU" >
+         <MenuItem Name="DMA_REF"  Label="Referentiel" SubMenuName="DMA_REF_MENU" />
+         <MenuItem Name="DMA_DOS"  Label="Gestion des DMA" SubMenuName="DMA_DOS_MENU" />
+      </Menu>
+      <Menu Name="DMA_REF_MENU" >
+         <MenuItem Name="DMA_PEC_008T_1"   Label="Etats des Prises en Charge" />
+         <MenuItem Name="PDT_PAR_001T_21_217"   Label="Types des Prises en Charge" />
+         <MenuItem Name="PDT_PAR_001T_21_218"   Label="Types de Saisie des Prises en Charge" />
+         <MenuItem Name="DMA_PEC_001T_1"   Label="Gestion des Prestations de Prise en Charge" />
+         <MenuItem Name="DMA_PEC_006T_1"   Label="Gestion des Regles de Prise en Charge" />
+         <MenuItem Name="DMA_PEC_009T_1"  Label="Gestion des Types de Demande de Prise en Charge" />
+         <MenuItem Name="PDT_PAR_001T_21_504"   Label="Gestion des Types d'Exoneration" />
+         <MenuItem Name="DMA_DOS_001T_1"   Label="Gestion des Types de Dossiers DMA" />
+         <MenuItem Name="DMA_DOS_004T_1"  Label="Gestion des groupes de type d'exoneration" />
+      </Menu>
+      <Menu Name="DMA_DOS_MENU" >
+         <MenuItem Name="DMA_PEC_002T_1"   Label="Gestion des Prises en Charge" />
+         <MenuItem Name="DMA_PEC_003T_1"   Label="Saisie des Prises en Charge" />
+         <MenuItem Name="PRL_MAN_054T_1"   Label="Validation Manuelle des Prises en Charges" />
+         <MenuItem Name="PRL_MAN_054T_3"   Label="Validation Manuelle des Prises en Charges" />
+         <MenuItem Name="DMA_PEC_010T_1"   Label="Demande de Contre Visite des Prises en Charges " />
+         <MenuItem Name="DMA_DOS_002T_1"   Label="Gestion des Dossiers Accident/Exoneration" />
+      </Menu>
+      <Menu Name="MIG_RUN_MENU" >
+         <MenuItem Name="MIG_RUN_008T_1"  Label="Parametrage Migration" />
+         <MenuItem Name="MIG_RUN_001T_1"  Label="Pilotage Migration" />
+         <MenuItem Name="PRL_RAP_001T_1"  Label="Suivi des Rapprochements de Prestation" />
+      </Menu>
+      <Menu Name="ACCUEIL_MENU" >
+         <MenuItem Name="EVENEMENT"  Label="Evenements" SubMenuName="ACCUEIL_EVT_MENU" />
+      </Menu>
+      <Menu Name="ACCUEIL_EVT_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_163"   Label="Gestion des Type d'Evenement" />
+         <MenuItem Name="ACC_EVT_001T_1"   Label="Gestion des Qualificatifs d'Evenement" />
+         <MenuItem Name="PDT_PAR_001T_21_565"   Label="Gestion des Natures d'evenement" />
+         <MenuItem Name="ACC_EVT_002T_1"   Label="Gestion des Modeles d'evenement" />
+         <MenuItem Name="ACC_EVT_003T_1"   Label="Suivi de ses Evenements" />
+         <MenuItem Name="ACC_EVT_003T_2"   Label="Evenements des Agents" />
+      </Menu>
+      <Menu Name="PARAM1_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_110"  Label="Gestion des Criteres de Tri" />
+         <MenuItem Name="PAI_REF_002T_1"  Label="Gestion des Periodes de Traitements" />
+         <MenuItem Name="PAI_REF_004T_1"  Label="Gestion des Modes de Paiements" />
+         <MenuItem Name="PAI_REF_005T_1"  Label="Gestion des Intervalles de Montants" />
+         <MenuItem Name="PAI_REF_001T_1"  Label="Gestion des Criteres de Lots" />
+         <MenuItem Name="PDT_PAR_001T_21_337"   Label="Gestion des dates comptables" />
+         <MenuItem Name="PDT_PAR_001T_21_338"   Label="Gestion des Montants comptables" />
+         <MenuItem Name="PDT_PAR_001T_21_500"   Label="Gestion des Types Dates Escompte des Paiements" />
+         <MenuItem Name="PAI_REF_006T_1"  Label="Gestion des Formats de Paiements" />
+         <MenuItem Name="PAI_EPA_002T_1"  Label="Gestion des Lots de Paiements" />
+         <MenuItem Name="PAI_EPA_004T_1"  Label="Emission des Paiements" />
+         <MenuItem Name="PDT_PAR_001T_21_197"  Label="Gestion des Motifs d'Annulation des Cheques" />
+      </Menu>
+      <Menu Name="PAIEMENT_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_111"  Label="Gestion des Etats d'une Avance" />
+         <MenuItem Name="PDT_PAR_001T_21_112"  Label="Gestion des Etats d'un Rejet" />
+         <MenuItem Name="PAI_OPA_003T_1"  Label="Gestion des Types d'OP" />
+         <MenuItem Name="PDT_PAR_001T_21_151"  Label="Gestion des Etats de Paiement" />
+         <MenuItem Name="PDT_PAR_001T_21_508"  Label="Gestion des Types d'Indu" />
+         <MenuItem Name="PDT_PAR_001T_21_306"  Label="Gestion des etats de remboursement d'indu" />
+      </Menu>
+      <Menu Name="AVANCEINDU_MENU" >
+         <MenuItem Name="PAI_AID_001T_1"  Label="Parametrage Avances-Indus" />
+      </Menu>
+      <Menu Name="PARAM_RELEVES" >
+         <MenuItem Name="PDT_PAR_001T_21_132"  Label="Criteres de Planification" />
+         <MenuItem Name="PDT_PAR_001T_21_133"  Label="Types de Report de Planification" />
+         <MenuItem Name="TDM_REF_001T_1"  Label="Gestion des Frequences de Releve" />
+         <MenuItem Name="TDM_REF_002T_1"  Label="Parametrage de l'Edition des Rel." />
+         <MenuItem Name="PDT_PAR_001T_21_359"  Label="Gestion des Types de Rejets  (Bordereaux TP)" />
+      </Menu>
+      <Menu Name="JOURNAUX_DE_PRESTATIONS_MENU" >
+         <MenuItem Name="PAI_REF_007T_1"  Label="Gestion des Types de journaux" />
+         <MenuItem Name="PAI_REF_008T_1"  Label="Gestion des Journaux" />
+      </Menu>
+      <Menu Name="WEB_MENU" >
+         <MenuItem Name="WEB_REF"  Label="Referentiel" SubMenuName="WEB_REF_MENU" />
+         <MenuItem Name="EXTRANET_ADHERENT"  Label="Extranet Adherent" SubMenuName="WEB_EXTRANET_ADHERENT" />
+         <MenuItem Name="WEB_HAB_001T_1"   Label="Parametrage Profils Web" />
+         <MenuItem Name="WEB_HAB_003T_1"   Label="Decryptage du Mot de Passe" />
+         <MenuItem Name="WEB_HAB_008T_1"   Label="Visualisation des Correspondants" />
+      </Menu>
+      <Menu Name="WEB_EXTRANET_ADHERENT" >
+         <MenuItem Name="PDT_PAR_001T_21_396"   Label="Gestion des Questions" />
+         <MenuItem Name="WEB_HAB_007T_1"   Label="Gestion des Comptes Web Adherents" />
+      </Menu>
+      <Menu Name="COMPTE_DE_TIERS_MENU" >
+         <MenuItem Name="PAI_EPA_012T_1"   Label="Gestion des types  de modalites de paiement" />
+         <MenuItem Name="PAI_EPA_013T_1"   Label="Gestion des Modalites de Paiement" />
+         <MenuItem Name="PDT_PAR_001T_21_341"   Label="Gestion des Modes d'Anciennetes" />
+         <MenuItem Name="PDT_PAR_001T_21_339"   Label="Gestion des Types d'Anciennetes" />
+         <MenuItem Name="PDT_PAR_001T_21_340"   Label="Gestion des Criteres de Regroupement" />
+         <MenuItem Name="PRR_DIV_026T_1"   Label="Gestion des Regroupements et Anciennetes" />
+      </Menu>
+      <Menu Name="CONTROLES" >
+         <MenuItem Name="PDT_PAR_001T_21_314"   Label="Gestion des Origines de Controle d'Acteur" />
+         <MenuItem Name="POP_REF_023T_1"   Label="Gestion des Objets de Controle d'Acteur" />
+         <MenuItem Name="POP_REF_042T_1"   Label="Gestion des Types d'Echantillons" />
+         <MenuItem Name="POP_REF_041T_1"   Label="Gestion des Echantillons" />
+         <MenuItem Name="POP_REF_024T_2"   Label="Gestion des Controles d'Acteurs" />
+         <MenuItem Name="POP_REF_025T_2"   Label="Gestion des Lots de Controle d'Acteur" />
+         <MenuItem Name="POP_REF_026T_2"   Label="Suivi des Controles d'Acteurs" />
+      </Menu>
+      <Menu Name="DECISIONNEL_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_543"   Label="Gestion des Formats de Sortie de Rapport" />
+         <MenuItem Name="DEC_RAP_001T_1"   Label="Gestion des Rapports du Decisionnel" />
+         <MenuItem Name="DEC_RAP_002T_1"   Label="Gestion des Utilisateurs de Rapport du Decisionnel" />
+         <MenuItem Name="DEC_RAP_003T_1"   Label="Gestion des Comptes Utilisateur de Rapport" />
+         <MenuItem Name="DEC_PAC_001T_1"   Label="Parametrage des Objets de Pilotage a Chaud" />
+         <MenuItem Name="DEC_RAP_004T_1"   Label="Execution de Rapports Decisionnel" />
+      </Menu>
+      <Menu Name="DEBUG" >
+         <MenuItem Name="NIVEAU_DE_MESSAGE"  Label="Niveau de message" SubMenuName="DEBUG_MENU_NIVEAU_DE_MESSAGE" />
+         <MenuItem Name="PDT_PAR_044T_21_1"   Label="Visualisation des traces" />
+         <MenuItem Name="TRACE_SQL"  Label="Trace SQL" SubMenuName="DEBUG_MENU_TRACE_SQL" />
+      </Menu>
+      <Menu Name="DEBUG_MENU_NIVEAU_DE_MESSAGE" >
+         <MenuItem Name="PDT_PAR_044T_21_11"  MenuItemType="Radio" MenuItemRadioGroup="NIVEAU_MESSAGE"  Label="Niveau 1" />
+         <MenuItem Name="PDT_PAR_044T_21_12"  MenuItemType="Radio" MenuItemRadioGroup="NIVEAU_MESSAGE"  Label="Niveau 2" />
+         <MenuItem Name="PDT_PAR_044T_21_13"  MenuItemType="Radio" MenuItemRadioGroup="NIVEAU_MESSAGE"  Label="Niveau 3" />
+         <MenuItem Name="PDT_PAR_044T_21_14"  MenuItemType="Radio" MenuItemRadioGroup="NIVEAU_MESSAGE"  Label="Niveau 4" />
+         <MenuItem Name="PDT_PAR_044T_21_15"  MenuItemType="Radio" MenuItemRadioGroup="NIVEAU_MESSAGE"  Label="Niveau 5" />
+      </Menu>
+      <Menu Name="DEBUG_MENU_TRACE_SQL" >
+         <MenuItem Name="PDT_PAR_044T_21_21"  MenuItemType="Radio" MenuItemRadioGroup="SQLTRACE"  Label="Active" />
+         <MenuItem Name="PDT_PAR_044T_21_22"  MenuItemType="Radio" MenuItemRadioGroup="SQLTRACE"  Label="Desactive" />
+      </Menu>
+      <Menu Name="AIDE" >
+         <MenuItem Name="NEM_DOC_001U_1"   Label="Aide en ligne" />
+         <MenuItem Name="NEM_DOC_002U_1"   Label="Acces a la documentation" />
+      </Menu>
+      <Menu Name="WEB_REF_MENU" >
+         <MenuItem Name="WEB_REF_001T_1"   Label="Gestion des Types de Mouvement Extranet" />
+         <MenuItem Name="PDT_PAR_001T_21_416"   Label="Gestion des Types d'Etat de Mouvement" />
+         <MenuItem Name="WEB_REF_002T_1"   Label="Gestion des Listes de Services" />
+         <MenuItem Name="PDT_PAR_001T_21_479"  Label="Gestion des Services Medicaux" />
+         <MenuItem Name="PDT_PAR_001T_21_526"  Label="Gestion des canaux de communications" />
+         <MenuItem Name="WEB_REF_TP"  Label="Interface Tiers Payant" SubMenuName="WEB_REF_TP_MENU" />
+         <MenuItem Name="WEB_REF_003T_1"   Label="Gestion du mot de passe" />
+      </Menu>
+      <Menu Name="WEB_REF_TP_MENU" >
+         <MenuItem Name="WEB_PAR_010T_1"  Label="Gestion des Circuits" />
+         <MenuItem Name="PDT_PAR_001T_21_473"  Label="Gestion des Natures d'Assurance" />
+         <MenuItem Name="PDT_PAR_001T_21_474"  Label="Gestion des DMT" />
+         <MenuItem Name="WEB_PAR_011T_1"  Label="Gestion des Actes" />
+         <MenuItem Name="WEB_PAR_006T_1"  Label="Gestion des Donnees Medicalisees" />
+         <MenuItem Name="PDT_PAR_001T_21_502"  Label="Gestion des MCO" />
+         <MenuItem Name="PDT_PAR_001T_21_506"  Label="Gestion des Grands Regimes TP" />
+         <MenuItem Name="WEB_PAR_013T_1"   Label="Gestion des Derogations TP" />
+         <MenuItem Name="WEB_PAR_003T_1"  Label="Correspondance de Natures d'Assurance" />
+         <MenuItem Name="WEB_PAR_004T_1"  Label="Correspondance des DMT" />
+         <MenuItem Name="WEB_PAR_005T_1"  Label="Correspondance des Actes Outils TP" />
+         <MenuItem Name="WEB_PAR_007T_1"  Label="Correspondance des Donnees Medicalisees" />
+         <MenuItem Name="WEB_PAR_008T_1"  Label="Correspondance MCO-DMT" />
+         <MenuItem Name="WEB_PAR_009T_1"  Label="Correspondance des Grands Regimes" />
+         <MenuItem Name="WEB_PAR_014T_1"  Label="Correspondance des Derogations TP" />
+         <MenuItem Name="WEB_PAR_001T_1"  Label="Calcul des Droits de l'Assure" />
+         <MenuItem Name="WEB_PAR_002T_1"  Label="Calcul du Forfait de l'Assure " />
+      </Menu>
+      <Menu Name="PDT_REF_INT_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_417"   Label="Gestion des Types de Sens d'Interface avec PREMIUM" />
+         <MenuItem Name="PDT_REF_027T_1"   Label="Gestion des Types d'Interface avec PREMIUM" />
+         <MenuItem Name="PDT_REF_026T_1"   Label="Gestion des Correspondances des Interfaces PREMIUM" />
+         <MenuItem Name="PDT_REF_028T_1"   Label="Gestion des Correspondances Role OPERA / PREMIUM" />
+         <MenuItem Name="PDT_REF_029T_1"   Label="Gestion des Corresp. Lien Personne OPERA / PREMIUM" />
+         <MenuItem Name="PDT_REF_036T_1"   Label="Gestion du Calendrier" />
+         <MenuItem Name="PDT_PAR_001T_21_567"   Label="Gestion des Familles" />
+         <MenuItem Name="PDT_PAR_001T_21_568"   Label="Gestion des Natures de Mouvements" />
+         <MenuItem Name="PDT_PAR_001T_21_569"   Label="Gestion des Types de Mouvements" />
+         <MenuItem Name="PDT_PAR_001T_21_570"   Label="Gestion des Types de montants" />
+         <MenuItem Name="PDT_REF_037T_1"   Label="Gestion du Parametrage des Flux Compta Externes" />
+      </Menu>
+      <Menu Name="PRR_FUB_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_424"   Label="Gestion des Variables de Formules Risques FUBE" />
+         <MenuItem Name="PDT_PAR_001T_21_431"   Label="Gestion des Anomalies Cartes FUBE" />
+      </Menu>
+      <Menu Name="MENU_HISTO" >
+         <MenuItem Name="COT_APP_020T_1"   Label="Consultation des Cotis Ancien Systeme" />
+      </Menu>
+      <Menu Name="MENU_GALERIE" >
+         <MenuItem Name="MKT_REF_005T_2"   Label="Gestion des Cibles des Galeries" />
+         <MenuItem Name="TDM_GAL_001T_1"   Label="Gestion des Galeries" />
+      </Menu>
+      <Menu Name="PRR_BED_MENU" >
+         <MenuItem Name="PDT_PAR_001T_21_469"   Label="Gestion des Variables de Formules Risques BED" />
+         <MenuItem Name="PDT_PAR_001T_21_470"   Label="Gestion des Types de Demandes BED" />
+         <MenuItem Name="PDT_PAR_001T_21_471"   Label="Gestion des Anomalies Cartes BED" />
+      </Menu>
+      <Menu Name="PRR_CAS_MENU" >
+         <MenuItem Name="PRR_CAS_001T_1"   Label="Gestion des Types de Demande de Carte Assure" />
+         <MenuItem Name="PRR_CAS_002T_1"   Label="Gestion des Etats de Carte Assure" />
+      </Menu>
+      <Menu Name="MEP_MULTIENTITES_PARTAGEES_MEN" >
+         <MenuItem Name="PDT_PAR_033T_21_1"   Label="Configurations" />
+         <MenuItem Name="PDT_PAR_001T_21_392"   Label="Types de cle" />
+         <MenuItem Name="PDT_PAR_001T_21_391"   Label="Types de mise a jour" />
+         <MenuItem Name="PDT_PAR_001T_21_389"   Label="Niveaux d'informations" />
+         <MenuItem Name="PDT_PAR_001T_21_393"   Label="Types de lien" />
+      </Menu>
+    </MenuModule>
+</Module>

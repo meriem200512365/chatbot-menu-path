@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/chroma_db/
+data/history.db
+models/
+dataset/
+.env
+config/auth_config.yaml
+.git

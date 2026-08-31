@@ -1,0 +1,80 @@
+{
+  "base_model": {
+    "model": "base (paraphrase-multilingual-MiniLM-L12-v2)",
+    "top1_accuracy": 0.3437,
+    "top3_accuracy": 0.4863,
+    "mrr": 0.4358,
+    "never_found_top3": 710,
+    "n_test_questions": 1382,
+    "n_paths_covered": 1382,
+    "depth_report": [
+      {
+        "depth": 1,
+        "n": 1,
+        "top1_acc": 0.0,
+        "top3_acc": 0.0,
+        "mrr": 0.0175
+      },
+      {
+        "depth": 2,
+        "n": 96,
+        "top1_acc": 0.6354,
+        "top3_acc": 0.7604,
+        "mrr": 0.708
+      },
+      {
+        "depth": 3,
+        "n": 461,
+        "top1_acc": 0.3774,
+        "top3_acc": 0.5249,
+        "mrr": 0.4738
+      },
+      {
+        "depth": 4,
+        "n": 824,
+        "top1_acc": 0.2913,
+        "top3_acc": 0.4333,
+        "mrr": 0.3833
+      }
+    ]
+  },
+  "finetuned_model": {
+    "model": "fine-tune (cegedim-menu-embedding)",
+    "top1_accuracy": 0.9616,
+    "top3_accuracy": 0.9993,
+    "mrr": 0.9803,
+    "never_found_top3": 1,
+    "n_test_questions": 1382,
+    "n_paths_covered": 1382,
+    "depth_report": [
+      {
+        "depth": 1,
+        "n": 1,
+        "top1_acc": 1.0,
+        "top3_acc": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "depth": 2,
+        "n": 96,
+        "top1_acc": 1.0,
+        "top3_acc": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "depth": 3,
+        "n": 461,
+        "top1_acc": 0.9675,
+        "top3_acc": 1.0,
+        "mrr": 0.9837
+      },
+      {
+        "depth": 4,
+        "n": 824,
+        "top1_acc": 0.9539,
+        "top3_acc": 0.9988,
+        "mrr": 0.976
+      }
+    ]
+  }
+}

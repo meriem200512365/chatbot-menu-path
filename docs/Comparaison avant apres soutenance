@@ -1,0 +1,79 @@
+# Comparaison avant / après fine-tuning — Document de soutenance
+
+Mesures réalisées sur le **même test set** (1382 questions, une par
+chemin, jamais vues à l'entraînement) et le **même corpus** (les 1382
+chemins réels du menu Cegedim), pour une comparaison strictement
+appariée entre le modèle de base et le modèle fine-tuné.
+
+## Tableau récapitulatif
+
+| Métrique | Modèle de base<br>(`paraphrase-multilingual-MiniLM-L12-v2`) | Modèle fine-tuné<br>(`cegedim-menu-embedding`) | Gain |
+|---|---:|---:|---:|
+| **Top-1 Accuracy** | 34.37 % | **96.16 %** | **+61.79 pt** |
+| **Top-3 Accuracy** | 48.63 % | **99.93 %** | **+51.30 pt** |
+| **MRR** | 0.4358 | **0.9803** | **+0.5445** |
+| **Chemins jamais retrouvés (hors top-3)** | 710 / 1382 (51.4 %) | **1 / 1382 (0.07 %)** | **−709 chemins** |
+
+## Interprétation
+
+**Le modèle de base échoue sur plus d'un chemin sur deux.** Avec
+seulement 48.63 % de Top-3 Accuracy, il ne parvient même pas à
+proposer le bon chemin parmi ses 3 meilleures réponses pour la
+majorité des questions du menu métier. Ce n'est pas surprenant : ce
+modèle n'a jamais vu le jargon Cegedim ("RO", "DMA", la structure
+hiérarchique du menu) — il traite ces termes avec un sens générique,
+sans connaissance du domaine.
+
+**Le fine-tuning transforme un outil peu fiable en un outil quasi
+fiable pour un usage réel.** Avec 96.16 % de Top-1 et 99.93 % de
+Top-3, le modèle spécialisé peut raisonnablement servir de moteur de
+recherche principal de l'application, avec un taux d'échec résiduel de
+moins de 1 chemin sur 1000.
+
+**Le MRR (Mean Reciprocal Rank) confirme que le gain n'est pas qu'une
+question de "trouver ou pas"**, mais aussi de **confiance du
+classement** : passer de 0.44 à 0.98 signifie que le bon résultat
+n'est presque plus jamais relégué en 2ᵉ ou 3ᵉ position — il arrive
+en tête.
+
+**Le chiffre le plus parlant pour un jury non technique** est
+probablement `710 → 1` sur les chemins jamais retrouvés : concrètement,
+sans le fine-tuning, un peu plus de la moitié des fonctionnalités du
+menu métier auraient été **introuvables** via la recherche sémantique.
+
+## Complément — performance du modèle fine-tuné par profondeur de menu
+
+(déjà établi à l'Étape 7, rappelé ici pour le dossier complet)
+
+| Profondeur | Top-1 Accuracy | Top-3 Accuracy | MRR |
+|---|---:|---:|---:|
+| 1 | 100.00 % | 100.00 % | 1.0000 |
+| 2 | 100.00 % | 100.00 % | 1.0000 |
+| 3 | 96.75 % | 100.00 % | 0.9837 |
+| 4 | 95.39 % | 99.88 % | 0.9760 |
+
+Aucune dégradation significative liée à la profondeur du chemin dans
+le menu — l'exigence critique du cahier des charges (le chemin #1382
+traité comme le #1) est vérifiée y compris sur les chemins les plus
+profonds.
+
+## Méthodologie (à mentionner si le jury questionne la rigueur de la mesure)
+
+- Les deux modèles ont été évalués sur **exactement les mêmes 1382
+  questions de test**, jamais vues à l'entraînement du modèle
+  fine-tuné, et jamais utilisées d'aucune façon pour le modèle de base
+  (qui n'a reçu aucun entraînement).
+- Même corpus de 1382 chemins pour les deux modèles.
+- Même métrique de similarité (cosinus) et même logique de calcul du
+  rang exact pour chaque question.
+- Script utilisé : `evaluate_base_model_baseline.py`, dont la sortie
+  brute est sauvegardée dans `comparison_report.json` pour audit.
+
+## Recommandation de présentation (slide de soutenance)
+
+1. Le graphique en barres (Top-1 / Top-3 / MRR, base vs fine-tuné) comme
+   slide d'ouverture des résultats — impact visuel immédiat.
+2. Le chiffre `710 → 1 chemins jamais retrouvés` en accroche orale.
+3. Le tableau par profondeur en slide de complément, pour anticiper la
+   question "est-ce que ça marche aussi sur les chemins les plus
+   profonds/rares ?" — la réponse chiffrée est déjà prête.

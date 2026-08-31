@@ -1,0 +1,13 @@
+# Theme Cegedim (sombre) -- applique automatiquement a tous les widgets
+# natifs (boutons, segmented_control, inputs...) pour une identite
+# visuelle coherente sans avoir a re-styler chaque composant en CSS.
+[theme]
+base = "dark"
+primaryColor = "#38bdf8"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#111a2b"
+textColor = "#b7cfef"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"

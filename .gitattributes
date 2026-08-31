@@ -1,0 +1,2 @@
+models/cegedim-menu-embedding/*.safetensors filter=lfs diff=lfs merge=lfs -text
+models/cegedim-menu-embedding/*.bin filter=lfs diff=lfs merge=lfs -text
